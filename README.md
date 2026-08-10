@@ -79,7 +79,7 @@ believable-ai-characters/
 >
 > ## Written by humans.
 > 
-> *AI-generated content: a new form of storytelling with predictive animation.*
+> *AI-generated content: a new form of storytelling through predictive animation.*
 
 ## Abstract
 
