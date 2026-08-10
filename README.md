@@ -1,21 +1,33 @@
 # believable-ai-characters
 
-## Website Storyboard
+Working repository for my portfolio project, Believable AI Characters, exploring AI-generated storytelling through predictive animation.
 
-> **Purpose:** This is the working plan for my portfolio website, Believable AI Characters. Approved copy will be moved into `index.html`.
->
-> **Core project logic:** **Define Character → Develop Backstory → Generate Series**
->
-> **Current completed case study:** **Cowboy Cove**
-> 
-> **Website Structure:** Hero, Abstract, Introduction, Methods, Results, and Discussion
->
-> **Filename naming convention:** `A` = Abstract, `I` = Introduction, `M` = Methods, `R` = Results
+## About
+
+Copy is currently in development. Approved copy will be moved into `index.html`.
+
+**Core project logic:** **Define Character → Develop Backstory → Generate Series**
+
+**Current completed case study:** **Cowboy Cove**
+
+**Website Structure:** Hero, Abstract, Introduction, Methods, Results, and Discussion
+
+**Filename convention:** `A` = Abstract, `I` = Introduction, `M` = Methods, `R` = Results
+
+## Preview 
+
+![Believable AI Characters website preview](preview.png)
+
 
 ## Repository Structure
 
 ```bash
 believable-ai-characters/
+├── preview.png
+├── README.md
+├── index.html
+├── base.css
+├── style.css
 ├── images/
 │   ├── A1_meet-cove.jpg
 │   ├── A2_meet-holly-wood.jpg
