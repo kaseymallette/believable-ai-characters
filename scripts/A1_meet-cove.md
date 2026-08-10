@@ -3,12 +3,12 @@
 **Character:** Cove  
 **Section:** Abstract   
 **Model:** Grok Imagine  
-**Format:** 9:16 vertical video
+**Format:** 9:16 vertical video         
 **Length:** 10 seconds
-**Asset:** `A1_meet-cove`  
-**Video:** `../videos/A1_meet-cove.mp4`     
-**Source Image:** `../images/A1_meet-cove.jpg`     
-**Prompt:** `../prompts/A1_meet-cove.md`    
+**Asset:** `A1_meet-cove`           
+**Video:** `../videos/A1_meet-cove.mp4`         
+**Source Image:** `../images/A1_meet-cove.jpg`          
+**Prompt:** `../prompts/A1_meet-cove.md`         
 
 
 ## Script
