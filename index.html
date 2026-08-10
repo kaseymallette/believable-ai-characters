@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kasey Mallette — Believable AI Characters</title>
+    <meta
+      name="description"
+      content="AI-generated content: a new form of storytelling through predictive animation."
+    />
+
+    <meta property="og:title" content="Kasey Mallette — Believable AI Characters" />
+    <meta
+      property="og:description"
+      content="AI-generated content: a new form of storytelling through predictive animation."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <a href="#main" class="sr-only">Skip to content</a>
+
+    <!-- Reading progress. Width is driven by scroll position in the script
+         at the foot of this file. -->
+    <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+    <!-- ==========================================================
+         MOBILE HEADER
+         Only visible below 1080px. On desktop the brand and the
+         section list live in the fixed sidebar instead.
+         ========================================================== -->
+    <header class="site-header" id="siteHeader">
+      <div class="site-header__bar">
+        <a href="#main" class="brand" aria-label="Kasey Mallette — top of page">
+          <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="14.5" stroke="currentColor" stroke-width="1.25" />
+            <path d="M16 3 L18 14 L29 16 L18 18 L16 29 L14 18 L3 16 L14 14 Z" fill="currentColor" />
+          </svg>
+          <span>Kasey Mallette</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navPanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="17" x2="20" y2="17" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Always-visible chip rail on phones. Scrolls sideways, highlights
+           the section you are in, so the page never reads as one long text. -->
+      <nav class="chiprail" aria-label="Sections">
+        <a href="#abstract" data-spy-chip="abstract">0 · Abstract</a>
+        <a href="#introduction" data-spy-chip="introduction">1 · Introduction</a>
+        <a href="#methods" data-spy-chip="methods">2 · Methods</a>
+        <a href="#results" data-spy-chip="results">3 · Results</a>
+        <a href="#discussion" data-spy-chip="discussion">4 · Discussion</a>
+      </nav>
+
+      <nav class="nav-panel" id="navPanel" data-open="false" aria-label="Menu">
+        <ol>
+          <li><a href="#abstract"><span>§ 0</span><span>Abstract</span></a></li>
+          <li><a href="#introduction"><span>§ 1</span><span>Introduction</span></a></li>
+          <li><a href="#methods"><span>§ 2</span><span>Methods</span></a></li>
+          <li><a href="#results"><span>§ 3</span><span>Results</span></a></li>
+          <li><a href="#discussion"><span>§ 4</span><span>Discussion</span></a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <!-- ==========================================================
+         DESKTOP SIDEBAR
+         Fixed. Holds the brand, the section list with a live
+         active state, and the contact line. This is what makes the
+         page click-through instead of one continuous scroll.
+         ========================================================== -->
+    <aside class="sidenav" aria-label="Section navigation">
+      <a href="#main" class="brand brand--side">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="14.5" stroke="currentColor" stroke-width="1.25" />
+          <path d="M16 3 L18 14 L29 16 L18 18 L16 29 L14 18 L3 16 L14 14 Z" fill="currentColor" />
+        </svg>
+        <span>Kasey Mallette</span>
+      </a>
+
+      <nav class="sidenav__nav">
+        <p class="sidenav__label">Contents</p>
+        <ol>
+          <li><a href="#abstract" data-spy="abstract"><span class="sidenav__num">0</span><span>Abstract</span></a></li>
+          <li><a href="#introduction" data-spy="introduction"><span class="sidenav__num">1</span><span>Introduction</span></a></li>
+          <li><a href="#methods" data-spy="methods"><span class="sidenav__num">2</span><span>Methods</span></a></li>
+          <li><a href="#results" data-spy="results"><span class="sidenav__num">3</span><span>Results</span></a></li>
+          <li><a href="#discussion" data-spy="discussion"><span class="sidenav__num">4</span><span>Discussion</span></a></li>
+        </ol>
+      </nav>
+
+      <p class="sidenav__foot">Las Vegas, NV</p>
+    </aside>
+
+    <main id="main">
+      <!-- ==========================================================
+           HERO
+           Approved copy is maintained in README.md and moved here.
+           ========================================================== -->
+      <section class="hero">
+        <div class="wrap">
+          <h1 class="reveal">
+            <span class="hero__line">Believable <span class="accent">AI</span></span>
+            <span class="hero__line">Characters</span>
+            <span class="hero__byline">Written by humans.</span>
+          </h1>
+
+          <div class="tagline reveal delay-1">
+            <p class="tagline__lede">
+              AI-generated content: a new form of storytelling through
+              <span class="accent">predictive animation</span>.
+            </p>
+          </div>
+
+          <div class="hero__grid reveal delay-2">
+            <div class="abstract" id="abstract" aria-labelledby="abstract-label">
+              <p class="abstract__label" id="abstract-label">
+                <span class="abstract__num">§ 0</span>
+                <span class="abstract__name">Abstract</span>
+              </p>
+
+              <div class="abstract__body">
+                <section class="abstract__copy" aria-labelledby="abstract-purpose">
+                  <h3 class="abstract__character" id="abstract-purpose">Purpose</h3>
+                  <p>
+                    The purpose of this project is to explore AI-generated content as a
+                    tool for storytelling, interactive research, and character
+                    development. By defining a character, developing a backstory, and
+                    generating a continuing series, I use AI characters not only to tell
+                    stories, but also to examine and comment on the very technology used
+                    to generate them.
+                  </p>
+                </section>
+
+                <article class="abstract__pair">
+                  <div class="abstract__copy">
+                    <h3 class="abstract__character">Cove</h3>
+                    <p>
+                      Cove is a charming, confident, self-aware AI persona who knows he's
+                      AI. Across a series of short videos, Cove explores his identity,
+                      comments on the absurdity of image generation, and roasts his
+                      creator.
+                    </p>
+                  </div>
+
+                  <div class="phone-player">
+                    <video
+                      class="phone-video"
+                      controls
+                      playsinline
+                      preload="metadata"
+                      poster="./images/A1_meet-cove.jpg"
+                      aria-label="A1 — Meet Cove"
+                    >
+                      <source src="./videos/A1_meet-cove.mp4" type="video/mp4" />
+                    </video>
+                    <button class="phone-player__play" type="button" aria-label="Play Meet Cove">
+                      <span aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </article>
+
+                <!-- Holly Wood copy is still in development in README.md. -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           § 1 INTRODUCTION
+           Copy pending in README.md.
+           ========================================================== -->
+      <section class="paper-section reveal-on-scroll" id="introduction" aria-labelledby="introduction-label">
+        <div class="wrap">
+          <header class="sect-head">
+            <p class="sect-head__label" id="introduction-label">
+              <span class="sect-head__num">§ 1</span>
+              <span class="sect-head__name">Introduction</span>
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           § 2 METHODS
+           Copy pending in README.md.
+           ========================================================== -->
+      <section class="paper-section reveal-on-scroll" id="methods" aria-labelledby="methods-label">
+        <div class="wrap">
+          <header class="sect-head">
+            <p class="sect-head__label" id="methods-label">
+              <span class="sect-head__num">§ 2</span>
+              <span class="sect-head__name">Methods</span>
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           § 3 RESULTS
+           Copy pending in README.md.
+           ========================================================== -->
+      <section class="paper-section reveal-on-scroll" id="results" aria-labelledby="results-label">
+        <div class="wrap">
+          <header class="sect-head">
+            <p class="sect-head__label" id="results-label">
+              <span class="sect-head__num">§ 3</span>
+              <span class="sect-head__name">Results</span>
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           § 4 DISCUSSION
+           Copy pending in README.md.
+           ========================================================== -->
+      <section class="paper-section reveal-on-scroll" id="discussion" aria-labelledby="discussion-label">
+        <div class="wrap">
+          <header class="sect-head">
+            <p class="sect-head__label" id="discussion-label">
+              <span class="sect-head__num">§ 4</span>
+              <span class="sect-head__name">Discussion</span>
+            </p>
+          </header>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© <span id="year"></span> Kasey Mallette</span>
+        <a href="#main">Back to top</a>
+      </div>
+    </footer>
+
+    <!-- Lightbox. Opens when a .tile with data-video is clicked. -->
+    <div class="lightbox" id="lightbox" data-open="false" role="dialog" aria-modal="true" aria-label="Video player">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close video">×</button>
+      <div class="lightbox__stage"><iframe id="lightboxFrame" title="Video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      /* Reading progress + header state */
+      const header = document.getElementById("siteHeader");
+      const bar = document.getElementById("progressBar");
+      const onScroll = () => {
+        header.dataset.scrolled = window.scrollY > 8 ? "true" : "false";
+        const h = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + "%";
+      };
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+
+      /* Mobile menu */
+      const toggle = document.getElementById("navToggle");
+      const panel = document.getElementById("navPanel");
+      const setNav = (open) => {
+        panel.dataset.open = String(open);
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      };
+      toggle.addEventListener("click", () => setNav(panel.dataset.open !== "true"));
+      panel.addEventListener("click", (e) => { if (e.target.closest("a")) setNav(false); });
+
+      /* Scrollspy — marks the sidebar and chip rail entry for the section
+         currently nearest the top third of the viewport. */
+      const spySections = ["abstract", "introduction", "methods", "results", "discussion"];
+      const spyLinks = new Map();
+      spySections.forEach((id) => {
+        spyLinks.set(id, [
+          document.querySelector(`[data-spy="${id}"]`),
+          document.querySelector(`[data-spy-chip="${id}"]`),
+        ].filter(Boolean));
+      });
+      const setActive = (id) => {
+        spyLinks.forEach((els, key) =>
+          els.forEach((el) => el.setAttribute("aria-current", key === id ? "true" : "false"))
+        );
+      };
+      const spyObserver = new IntersectionObserver(
+        (entries) => {
+          const hit = entries
+            .filter((e) => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+          if (hit) setActive(hit.target.id);
+        },
+        { rootMargin: "-20% 0px -65% 0px", threshold: 0 }
+      );
+      spySections.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) spyObserver.observe(el);
+      });
+
+      /* Reveal on scroll */
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.dataset.visible = "true";
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { rootMargin: "0px 0px -10% 0px", threshold: 0.05 }
+      );
+      document.querySelectorAll(".reveal-on-scroll").forEach((el) => observer.observe(el));
+
+      /* Large, centered play controls for the three embedded character videos. */
+      document.querySelectorAll(".phone-player").forEach((player) => {
+        const video = player.querySelector("video");
+        const play = player.querySelector(".phone-player__play");
+        const sync = () => {
+          player.dataset.playing = String(!video.paused && !video.ended);
+        };
+        play.addEventListener("click", () => video.play());
+        video.addEventListener("play", sync);
+        video.addEventListener("pause", sync);
+        video.addEventListener("ended", sync);
+      });
+
+      /* Lightbox — YouTube Shorts play in place rather than sending
+         the visitor off to YouTube. src is cleared on close so audio stops. */
+      const lb = document.getElementById("lightbox");
+      const lbFrame = document.getElementById("lightboxFrame");
+      const closeLb = () => {
+        lb.dataset.open = "false";
+        lbFrame.removeAttribute("src");
+        document.body.style.overflow = "";
+      };
+      document.querySelectorAll("[data-yt]").forEach((tile) => {
+        tile.addEventListener("click", () => {
+          lbFrame.src =
+            "https://www.youtube-nocookie.com/embed/" + tile.dataset.yt + "?autoplay=1&rel=0&playsinline=1";
+          lb.dataset.open = "true";
+          document.body.style.overflow = "hidden";
+        });
+      });
+      document.getElementById("lightboxClose").addEventListener("click", closeLb);
+      lb.addEventListener("click", (e) => { if (e.target === lb) closeLb(); });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") { closeLb(); setNav(false); }
+      });
+    </script>
+  </body>
+</html>
