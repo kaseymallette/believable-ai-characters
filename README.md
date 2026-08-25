@@ -57,7 +57,7 @@ believable-ai-characters/
 
 After spending a lot of time interacting with AI, I became interested in characters that were not pretending to be human, but were self-aware of the technology creating them. Cove and Holly Wood know they are AI-generated. They comment on their own appearance, question the scenes they are placed in, interact with their creator, and use the mechanics of generative AI as part of the story.
 
-I developed their personas, wrote the scripts and prompts, and used Grok Imagine to generate the images and videos. Through short scenes, backstories, and continuing series, the project explores what happens when an AI-generated image becomes a character with a point of view.
+**My process:** I develop the characters and personas, write the scripts through an iterative prompting, and use generative AI to predict their movements and actions. Through short scenes, backstories, and continuing series, the project explores what happens when an AI-generated image becomes a character with a point of view.
 
 ## Meet the Characters
 
