@@ -45,7 +45,7 @@ believable-ai-characters/
     └── ...
 ```
 
-## Hero
+# Hero
 
 > # Believable AI Characters
 >
@@ -53,15 +53,15 @@ believable-ai-characters/
 > 
 > *AI-generated content: a new form of storytelling through predictive animation.*
 
-## About
+# About
 
 After spending a lot of time interacting with AI, I became interested in characters that were not pretending to be human, but were self-aware of the technology creating them. Cove and Holly Wood know they are AI-generated. They comment on their own appearance, question the scenes they are placed in, interact with their creator, and use the mechanics of generative AI as part of the story.
 
 **My process:** I develop the characters and personas, write the scripts through iterative prompting, and use generative AI to predict their movements and actions. Through short scenes, backstories, and continuing series, the project explores what happens when an AI-generated image becomes a character with a point of view.
 
-## Meet the Characters
+# Meet the Characters
 
-### Cove
+## Cove
 
 Cove is a charming, confident, self-aware AI who knows he's AI. Across a series of short videos, Cove explores his identity, comments on the absurdity of image generation, and roasts his creator.
 
@@ -75,13 +75,13 @@ Cove is a charming, confident, self-aware AI who knows he's AI. Across a series 
 **Video transcript**
 > Hey, I'm Cove. I'm an AI-generated image who discovered image generation, and let's just say, I have opinions. I'm audacious, and I'm about to roast my creator. Seriously, what's with this hair? And this smirk? You made me too perfect. 
 
-### Holly Wood
+## Holly Wood
 
 
-## Persona Development
+# Persona Development
 
 
-## Narrative Development
+# Narrative Development
 
 
-## Technical Implementation
+# Technical Implementation
