@@ -1,14 +1,10 @@
 # believable-ai-characters
 
-Working repository for my portfolio project, Believable AI Characters, exploring AI-generated storytelling through predictive animation.
+Portfolio project exploring AI-generated storytelling through predictive animation.
 
-## About
+## In Development
 
-Copy is currently in development. Approved copy will be moved into `index.html`.
-
-**Core project logic:** **Define Character → Develop Backstory → Generate Series**
-
-**Current completed case study:** **Cowboy Cove**
+Copy is currently in development. Finalized copy will be moved into `index.html`.
 
 **Website Structure:** About, Meet the Characters, Persona Development, Narrative Development, and Technical Implementation
 
