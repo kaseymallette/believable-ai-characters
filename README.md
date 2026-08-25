@@ -2,6 +2,8 @@
 
 Portfolio project for Believable AI Characters, a website I’m building around self-aware AI characters generated with Grok Imagine. Written by humans. I develop the characters and personas, write the scripts through an iterative prompting process, and use generative AI to predict their movements and actions.
 
+[Watch on YouTube](https://www.youtube.com/@KCatthebat)
+
 ## In Development
 
 Copy is currently in development. Finalized copy will be moved into `index.html`.
