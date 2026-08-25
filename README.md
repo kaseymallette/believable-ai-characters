@@ -1,6 +1,6 @@
 # believable-ai-characters
 
-Portfolio project exploring AI-generated storytelling through predictive animation.
+Portfolio project for Believable AI Characters, a website I’m building around self-aware AI characters generated with Grok Imagine. Written by humans. I develop the characters and personas, write the scripts through an iterative prompting process, and use generative AI to predict their movements and actions.
 
 ## In Development
 
