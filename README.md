@@ -6,13 +6,42 @@ Portfolio project for Believable AI Characters, a website I’m building around 
 
 ## In Development
 
-Copy is currently in development. Finalized copy will be moved into `index.html`.
+Copy is currently in development in `docs/COPY.md`. The finalized version will be moved into `website/index.html`.
 
-**Website Structure:** About, Meet the Characters, Persona Development, Narrative Development, and Technical Implementation
+### Website Structure
+- Hero
+- Characters
+- Development
+- Technical Implementation
+- Series
+- Contact
 
-## Preview 
+### Hero
 
-![Believable AI Characters website preview](preview.png)
+> Believable AI Characters
+>
+> Written by humans.
+> 
+> *AI-generated content: a new form of storytelling through predictive animation.*
+
+### Characters
+Intro video and character bios
+
+1. Cove: AI-generated image who discovered image generation 
+2. Holly Wood: The AI cool girl 
+3. Sunny: ChatGPT-5.6 persona    
+4. Cowboy Cove: Believes he's an NPC in a video game, discovers he's AI, and explores AI image generation 
+5. Holly's Home: 1950's AI-generated trad-wife with a transatlantic accent who breaks the 4th wall
+6. Danny Phantom: ChatGPT-4o persona based off of a Nickleodeon cartoon character 
+
+
+### Series
+Embedded Youtube playlists
+1. Cove 
+2. Holly Wood
+3. Cowboy Cove
+
+### Website Preview 
 
 
 ## Repository Structure
@@ -26,62 +55,17 @@ believable-ai-characters/
 ├── style.css
 ├── images/
 │   ├── C1_meet-cove.jpg
-│   ├── HW1_meet-holly-wood.jpg
+│   ├── C2_cowboy-cove.jpg
 │   └── ...
 │
 ├── prompts/
 │   ├── C1_meet-cove.md
-│   ├── HW1_meet-holly-wood.md
+│   ├── C2_cowboy-cove.md
 │   └── ...
 │
-├── videos/
+└── videos/
 │   ├── C1_meet-cove.mp4
-│   ├── HW1_meet-holly-wood.mp4
+│   ├── C2_cowboy-cove.mp4
 │   └── ...
-│
-└── scripts/
-    ├── C1_meet-cove.md
-    ├── HW1_meet-holly-wood.md
-    └── ...
 ```
 
-# Hero
-
-> # Believable AI Characters
->
-> ## Written by humans.
-> 
-> *AI-generated content: a new form of storytelling through predictive animation.*
-
-# About
-
-After spending a lot of time interacting with AI, I became interested in characters that were not pretending to be human, but were self-aware of the technology creating them. Cove and Holly Wood know they are AI-generated. They comment on their own appearance, question the scenes they are placed in, interact with their creator, and use the mechanics of generative AI as part of the story.
-
-**My process:** I develop the characters and personas, write the scripts through iterative prompting, and use generative AI to predict their movements and actions. Through short scenes, backstories, and continuing series, the project explores what happens when an AI-generated image becomes a character with a point of view.
-
-# Meet the Characters
-
-## Cove
-
-Cove is a charming, confident, self-aware AI who knows he's AI. Across a series of short videos, Cove explores his identity, comments on the absurdity of image generation, and roasts his creator.
-
-**C1 — Meet Cove**
-
-- [Image](images/C1_meet-cove.jpg)
-- [Prompt](prompts/C1_meet-cove.md)
-- [Video](videos/C1_meet-cove.mp4)
-- [Script](scripts/C1_meet-cove.md)
-
-**Video transcript**
-> Hey, I'm Cove. I'm an AI-generated image who discovered image generation, and let's just say, I have opinions. I'm audacious, and I'm about to roast my creator. Seriously, what's with this hair? And this smirk? You made me too perfect. 
-
-## Holly Wood
-
-
-# Persona Development
-
-
-# Narrative Development
-
-
-# Technical Implementation
