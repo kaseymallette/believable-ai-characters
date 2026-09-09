@@ -64,8 +64,8 @@ believable-ai-characters/
 │   └── ...
 │
 └── videos/
-│   ├── C1_meet-cove.mp4
-│   ├── C2_cowboy-cove.mp4
-│   └── ...
+    ├── C1_meet-cove.mp4
+    ├── C2_cowboy-cove.mp4
+    └── ...
 ```
 
