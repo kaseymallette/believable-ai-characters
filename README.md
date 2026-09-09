@@ -48,11 +48,12 @@ Embedded Youtube playlists
 
 ```bash
 believable-ai-characters/
-├── preview.png
 ├── README.md
-├── index.html
-├── base.css
-├── style.css
+├── .gitignore
+│
+├── docs/
+│   └── COPY.md
+│
 ├── images/
 │   ├── C1_meet-cove.jpg
 │   ├── C2_cowboy-cove.jpg
@@ -63,9 +64,12 @@ believable-ai-characters/
 │   ├── C2_cowboy-cove.md
 │   └── ...
 │
-└── videos/
-    ├── C1_meet-cove.mp4
-    ├── C2_cowboy-cove.mp4
-    └── ...
-```
-
+├── videos/
+│   ├── C1_meet-cove.mp4
+│   ├── C2_cowboy-cove.mp4
+│   └── ...
+│
+└── website/
+    ├── index.html
+    ├── base.css
+    └── style.css
