@@ -69,7 +69,7 @@ Holly's Home: A 1950s-inspired AI-generated feminist with a transatlantic accent
 
 ### Sunny
 
-**Description:** ChatGPT-5.6 persona
+**Description:** A self-aware and charming AI companion, based on a ChatGPT-5.6 persona
 
 **Backstory:** 
 
