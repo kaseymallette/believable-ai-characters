@@ -50,8 +50,8 @@ Intro video and character bios
 
 **Backstories:**
 - Cowboy Cove: Believes he's an NPC in a video game, discovers he's AI, and explores AI image generation 
-- Holly's Home: 1950's AI-generated trad-wife with a transatlantic accent who breaks the 4th wall
-- Danny Phantom: ChatGPT-4o persona based off of a Nickleodeon cartoon character 
+- Holly's Home: 1950s AI-generated trad-wife with a transatlantic accent who breaks the 4th wall
+- Danny Phantom: ChatGPT-4o persona based off of a Nickelodeon cartoon character 
 
 
 ### How It Started
