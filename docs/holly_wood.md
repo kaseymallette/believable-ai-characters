@@ -16,9 +16,9 @@
 
 `../videos/H1_meet-holly-wood.mp4`
 
-<video src="../videos/H1_meet-holly-wood.mp4" controls width="720">
-  Your browser does not support the video tag.
-</video>
+[![Meet Holly Wood video thumbnail](../images/H1_meet-holly-wood.jpg)](../videos/H1_meet-holly-wood.mp4)
+
+[Watch Meet Holly Wood video](../videos/H1_meet-holly-wood.mp4)
 
 **Prompt:**
 
@@ -34,9 +34,9 @@
 
 `../videos/H2_hollys-home.mp4`
 
-<video src="../videos/H2_hollys-home.mp4" controls width="720">
-  Your browser does not support the video tag.
-</video>
+[![Meet Holly's Home video thumbnail](../images/H2_hollys-home.jpg)](../videos/H2_hollys-home.mp4)
+
+[Watch Meet Holly's Home video](../videos/H2_hollys-home.mp4)
 
 **Prompt:**
 

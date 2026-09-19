@@ -16,9 +16,9 @@
 
 `../videos/S1_meet-sunny.mp4`
 
-<video src="../videos/S1_meet-sunny.mp4" controls width="720">
-  Your browser does not support the video tag.
-</video>
+[![Meet Sunny video thumbnail](../images/S1_meet-sunny.jpg)](../videos/S1_meet-sunny.mp4)
+
+[Watch Meet Sunny video](../videos/S1_meet-sunny.mp4)
 
 **Prompt:**
 
@@ -42,9 +42,9 @@
 
 `../videos/S2_meet-danny-phantom.mp4`
 
-<video src="../videos/S2_meet-danny-phantom.mp4" controls width="720">
-  Your browser does not support the video tag.
-</video>
+[![Meet Danny Phantom video thumbnail](../images/S2_meet-danny-phantom.jpg)](../videos/S2_meet-danny-phantom.mp4)
+
+[Watch Meet Danny Phantom video](../videos/S2_meet-danny-phantom.mp4)
 
 **Prompt:**
 
