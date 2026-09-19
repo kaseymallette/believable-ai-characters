@@ -16,8 +16,6 @@
 
 `../videos/C1_meet-cove.mp4`
 
-[![Meet Cove video thumbnail](../images/C1_meet-cove.jpg)](../videos/C1_meet-cove.mp4)
-
 [Watch Meet Cove video](../videos/C1_meet-cove.mp4)
 
 **Prompt:**
@@ -31,8 +29,6 @@
 ### Meet Cowboy Cove
 
 `../videos/C2_meet-cowboy-cove.mp4`
-
-[![Meet Cowboy Cove video thumbnail](../images/C2_meet-cowboy-cove.jpg)](../videos/C2_meet-cowboy-cove.mp4)
 
 [Watch Meet Cowboy Cove video](../videos/C2_meet-cowboy-cove.mp4)
 

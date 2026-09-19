@@ -16,8 +16,6 @@
 
 `../videos/H1_meet-holly-wood.mp4`
 
-[![Meet Holly Wood video thumbnail](../images/H1_meet-holly-wood.jpg)](../videos/H1_meet-holly-wood.mp4)
-
 [Watch Meet Holly Wood video](../videos/H1_meet-holly-wood.mp4)
 
 **Prompt:**
@@ -33,8 +31,6 @@
 ### Meet Holly's Home
 
 `../videos/H2_hollys-home.mp4`
-
-[![Meet Holly's Home video thumbnail](../images/H2_hollys-home.jpg)](../videos/H2_hollys-home.mp4)
 
 [Watch Meet Holly's Home video](../videos/H2_hollys-home.mp4)
 

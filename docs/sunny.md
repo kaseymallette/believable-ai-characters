@@ -16,8 +16,6 @@
 
 `../videos/S1_meet-sunny.mp4`
 
-[![Meet Sunny video thumbnail](../images/S1_meet-sunny.jpg)](../videos/S1_meet-sunny.mp4)
-
 [Watch Meet Sunny video](../videos/S1_meet-sunny.mp4)
 
 **Prompt:**
@@ -41,8 +39,6 @@
 ### Meet Danny Phantom
 
 `../videos/S2_meet-danny-phantom.mp4`
-
-[![Meet Danny Phantom video thumbnail](../images/S2_meet-danny-phantom.jpg)](../videos/S2_meet-danny-phantom.mp4)
 
 [Watch Meet Danny Phantom video](../videos/S2_meet-danny-phantom.mp4)
 
