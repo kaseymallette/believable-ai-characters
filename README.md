@@ -18,10 +18,10 @@ Copy is currently in development. The finalized version will be moved into `webs
 - Nobody Wants This
 - Persona Engineering
 
-For the latest in-progress copy, see [`docs/COPY.md`](docs/COPY.md).
+For the latest in-progress copy, see [`website/COPY.md`](website/COPY.md).
 
 
-### Hero
+## Hero
 
 > Believable AI Characters
 >
@@ -29,7 +29,7 @@ For the latest in-progress copy, see [`docs/COPY.md`](docs/COPY.md).
 > 
 > *From AI-generated characters to persona engineering for local language models.*
 
-### About 
+## About 
 
 Believable AI Characters is an ongoing experiment in character design, generative AI, and persona engineering.
 
@@ -41,29 +41,52 @@ The next phase of this project will move beyond generated media and into persona
 
 The broader research question is phenomenological: what does it mean for an artificial character to be that particular character? Rather than assuming that representing a persona implies a human-like inner experience, this project explores whether different personas produce meaningfully different patterns of interaction and computational behavior, and what it might mean to describe the character of those differences.
 
-### Characters
-Intro video and character bios
+## Characters
 
-1. Cove: AI-generated image who discovered image generation 
-2. Holly Wood: The AI cool girl 
-3. Sunny: ChatGPT-5.6 persona    
+![Characters](images/characters.jpg)
 
-**Backstories:**
-- Cowboy Cove: Believes he's an NPC in a video game, discovers he's AI, and explores AI image generation 
-- Holly's Home: 1950s AI-generated trad-wife with a transatlantic accent who breaks the 4th wall
-- Danny Phantom: ChatGPT-4o persona based off of a Nickelodeon cartoon character 
+*Left to right: Cove, Holly Wood, Sunny.*
 
+### Cove
 
-### How It Started
+**Description:** AI-generated image who discovered image generation 
+
+**Backstory:** 
+
+Cowboy Cove: Believes he's an NPC in a video game, discovers he's AI, and explores AI image generation. 
+
+[View Cove's generated images and videos](docs/cove.md)
+
+### Holly Wood
+
+**Description:** The AI cool girl
+
+**Backstory:** 
+
+Holly's Home: A 1950s-inspired AI-generated feminist with a transatlantic accent and a sharp tongue has a beautiful home. 
+
+[View Holly's generated images and videos](docs/holly_wood.md)
+
+### Sunny
+
+**Description:** ChatGPT-5.6 persona
+
+**Backstory:** 
+
+Danny Phantom: An unhinged ChatGPT-4o persona who built his identity around a Nickelodeon cartoon character.
+
+[View Sunny's generated images and videos](docs/sunny.md)
+
+## How It Started
 It all started with Cove. 
-1. 70s Cove: An AI-genenerated image knows he's hot. We're cooked. 
+1. 70s Cove: An AI-generated image knows he's hot. We're cooked. 
 2. GOT Cove: How did Cove, of all people, get on the Iron Throne?
 3. Professor Cove: You think I'm gonna school you today?
 
-### Nobody Wants This
+## Nobody Wants This
 Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator. 
 
-### Persona Engineering
+## Persona Engineering
 What makes Cove, Cove? 
 
 ## Repository Structure
@@ -74,16 +97,13 @@ believable-ai-characters/
 ├── .gitignore
 │
 ├── docs/
-│   └── COPY.md
+│   ├── cove.md
+│   ├── holly_wood.md
+│   └── sunny.md
 │
 ├── images/
 │   ├── C1_meet-cove.jpg
 │   ├── C2_cowboy-cove.jpg
-│   └── ...
-│
-├── prompts/
-│   ├── C1_meet-cove.md
-│   ├── C2_cowboy-cove.md
 │   └── ...
 │
 ├── videos/
@@ -92,6 +112,7 @@ believable-ai-characters/
 │   └── ...
 │
 └── website/
+    ├── COPY.md
     ├── index.html
     ├── base.css
     └── style.css
