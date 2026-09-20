@@ -79,9 +79,10 @@ The broader research question is phenomenological: what does it mean for an arti
 
 ## How It Started
 
-This section has two parts:
-1) three intro Cove videos using the same card structure as Characters, and
-2) a Cowboy Cove playlist embed with a left-column flashcard carousel for the five-video series.
+This section has three parts:
+1) four intro Cove videos using the same card structure as Characters,
+2) one YouTube-linked Cove dance performance (60s), and
+3) a Cowboy Cove playlist embed with a left-column flashcard carousel for the five-video series.
 
 ### Structure Notes (for index.html)
 
@@ -110,6 +111,14 @@ This section has two parts:
 - **Description:** You think I'm gonna school you today?
 - **Poster Thumbnail:** `../images/[ADD_PROFESSOR_COVE_IMAGE].jpg`
 - **Video:** `../videos/[ADD_PROFESSOR_COVE_VIDEO].mp4`
+
+### Cove's Dance Performance
+
+- **Card Title:** Cove's Dance Performance
+- **Description:** 60-second dance performance video.
+- **Media Type:** YouTube link (not local embed)
+- **YouTube URL:** `[ADD_COVE_DANCE_YOUTUBE_LINK]`
+- **Display Note:** Add this card before Cowboy Cove Series.
 
 ### Cowboy Cove Series (Playlist Feature)
 

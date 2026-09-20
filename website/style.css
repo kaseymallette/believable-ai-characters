@@ -508,6 +508,17 @@ html {
   border: 0;
 }
 
+.media-panel--placeholder {
+  display: grid;
+  place-items: center;
+  padding: var(--space-6);
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  color: var(--color-text-dim);
+}
+
 .flash-carousel {
   display: grid;
   gap: var(--space-4);
