@@ -16,11 +16,9 @@
 
 `../videos/C1_meet-cove.mp4`
 
-[Watch Meet Cove video](../videos/C1_meet-cove.mp4)
-
 [![Watch Meet Cove on YouTube](https://img.youtube.com/vi/n5OCX-Rndt4/hqdefault.jpg)](https://www.youtube.com/shorts/n5OCX-Rndt4)
 
-[Watch Meet Cove on YouTube](https://www.youtube.com/shorts/n5OCX-Rndt4)
+[Watch on YouTube](https://www.youtube.com/shorts/n5OCX-Rndt4)
 
 **Prompt:**
 
@@ -34,11 +32,9 @@
 
 `../videos/C2_meet-cowboy-cove.mp4`
 
-[Watch Meet Cowboy Cove video](../videos/C2_meet-cowboy-cove.mp4)
-
 [![Watch Meet Cowboy Cove on YouTube](https://img.youtube.com/vi/jdgMEF6-R3o/hqdefault.jpg)](https://www.youtube.com/shorts/jdgMEF6-R3o)
 
-[Watch Meet Cowboy Cove on YouTube](https://www.youtube.com/shorts/jdgMEF6-R3o)
+[Watch on YouTube](https://www.youtube.com/shorts/jdgMEF6-R3o)
 
 **Prompt:**
 
