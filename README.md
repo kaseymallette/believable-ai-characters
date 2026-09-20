@@ -77,18 +77,6 @@ Danny Phantom: An unhinged ChatGPT-4o persona who built his identity around a Ni
 
 [View Sunny's generated images and videos](docs/sunny.md)
 
-## How It Started
-It all started with Cove. 
-1. 70s Cove: An AI-generated image knows he's hot. We're cooked. 
-2. GOT Cove: How did Cove, of all people, get on the Iron Throne?
-3. Professor Cove: You think I'm gonna school you today?
-
-## Nobody Wants This
-Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator. 
-
-## Persona Engineering
-What makes Cove, Cove? 
-
 ## Repository Structure
 
 ```bash
@@ -116,3 +104,6 @@ believable-ai-characters/
     ├── index.html
     ├── base.css
     └── style.css
+```
+
+## Persona Engineering

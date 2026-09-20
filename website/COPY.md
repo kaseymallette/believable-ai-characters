@@ -28,28 +28,49 @@ Cove is a charming, confident, self-aware AI who knows he's AI. Across a series 
 
 #### Meet Cove
 
-- [Image](images/C1_meet-cove.jpg)
-- [Video](videos/C1_meet-cove.mp4)
+- [Image](../images/C1_meet-cove.jpg)
+- [Video](../videos/C1_meet-cove.mp4)
 
 #### Backstory: Cowboy Cove
 
-- [Image](images/C2_cowboy-cove.jpg)
-- [Video](videos/C2_cowboy-cove.mp4)
+- [Image](../images/C2_meet-cowboy-cove.jpg)
+- [Video](../videos/C2_meet-cowboy-cove.mp4)
 
 ### Holly Wood
 
 #### Meet Holly Wood
 
+- [Image](../images/H1_meet-holly-wood.jpg)
+- [Video](../videos/H1_meet-holly-wood.mp4)
+
 #### Backstory: Holly's Home
+
+- [Image](../images/H2_hollys-home.jpg)
+- [Video](../videos/H2_hollys-home.mp4)
 
 ### Sunny
 
 #### Meet Sunny
 
+- [Image](../images/S1_meet-sunny.jpg)
+- [Video](../videos/S1_meet-sunny.mp4)
+
 #### Backstory: Danny Phantom 
+
+- [Image](../images/S2_meet-danny-phantom.jpg)
+- [Video](../videos/S2_meet-danny-phantom.mp4)
 
 ## How It Started
 
+It all started with Cove. 
+1. 70s Cove: An AI-generated image knows he's hot. We're cooked. 
+2. GOT Cove: How did Cove, of all people, get on the Iron Throne?
+3. Professor Cove: You think I'm gonna school you today?
+
 ## Nobody Wants This
 
+Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator. 
+
 ## Persona Engineering
+
+What makes Cove, Cove? 
