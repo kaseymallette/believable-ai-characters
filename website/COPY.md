@@ -79,14 +79,13 @@ The broader research question is phenomenological: what does it mean for an arti
 
 ## How It Started
 
-This section has three parts:
-1) four intro Cove videos using the same card structure as Characters,
-2) one YouTube-linked Cove dance performance (60s), and
-3) a Cowboy Cove playlist embed with a left-column flashcard carousel for the five-video series.
+This section has two parts:
+1) five Cove videos using the same card structure as Characters (including the 60s dance performance), and
+2) a Cowboy Cove playlist embed with a left-column flashcard carousel for the five-video series.
 
 ### Structure Notes (for index.html)
 
-- **Part A (Intro Cards):** left = description, right = embedded local video (with poster)
+- **Part A (Intro Cards):** left = description, right = embedded YouTube video
 - **Part B (Cowboy Cove Series):** left = flashcard/carousel notes, right = embedded YouTube playlist
 - **Playlist URL:** `https://www.youtube.com/playlist?list=PLbcZPmMeUsro`
 - **Playlist Embed URL:** `https://www.youtube.com/embed/videoseries?list=PLbcZPmMeUsro`
@@ -95,29 +94,36 @@ This section has three parts:
 
 - **Card Title:** 70s Cove
 - **Description:** An AI-generated image who knows he's hot. We're cooked.
-- **Poster Thumbnail:** `../images/[ADD_70S_COVE_IMAGE].jpg`
-- **Video:** `../videos/[ADD_70S_COVE_VIDEO].mp4`
-
-### GOT Cove
-
-- **Card Title:** GOT Cove
-- **Description:** How did Cove, of all people, get on the Iron Throne?
-- **Poster Thumbnail:** `../images/[ADD_GOT_COVE_IMAGE].jpg`
-- **Video:** `../videos/[ADD_GOT_COVE_VIDEO].mp4`
+- **YouTube URL:** `[ADD_70S_COVE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_70S_COVE_YOUTUBE_EMBED_LINK]`
 
 ### Professor Cove
 
 - **Card Title:** Professor Cove
 - **Description:** You think I'm gonna school you today?
-- **Poster Thumbnail:** `../images/[ADD_PROFESSOR_COVE_IMAGE].jpg`
-- **Video:** `../videos/[ADD_PROFESSOR_COVE_VIDEO].mp4`
+- **YouTube URL:** `[ADD_PROFESSOR_COVE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_PROFESSOR_COVE_YOUTUBE_EMBED_LINK]`
+
+### GOT Cove
+
+- **Card Title:** GOT Cove
+- **Description:** How did Cove, of all people, get on the Iron Throne?
+- **YouTube URL:** `[ADD_GOT_COVE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_GOT_COVE_YOUTUBE_EMBED_LINK]`
+
+### Winds of Winter Cove
+
+- **Card Title:** Winds of Winter Cove
+- **Description:** [ADD_WINDS_OF_WINTER_COVE_DESCRIPTION]
+- **YouTube URL:** `[ADD_WINDS_OF_WINTER_COVE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_WINDS_OF_WINTER_COVE_YOUTUBE_EMBED_LINK]`
 
 ### Cove's Dance Performance
 
 - **Card Title:** Cove's Dance Performance
 - **Description:** 60-second dance performance video.
-- **Media Type:** YouTube link (not local embed)
 - **YouTube URL:** `[ADD_COVE_DANCE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_COVE_DANCE_YOUTUBE_EMBED_LINK]`
 - **Display Note:** Add this card before Cowboy Cove Series.
 
 ### Cowboy Cove Series (Playlist Feature)
@@ -163,42 +169,42 @@ This section has three parts:
 
 Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator.
 
-This section uses the same card structure as Characters.
+This section uses the same layout as Characters (left text, right embedded video), but each entry is YouTube-based so videos stay off-repo.
 
 ### AI Iron Triangle (Holly Wood)
 
 - **Card Title:** AI Iron Triangle
 - **Description:** Holly Wood breaks down the AI Iron Triangle.
-- **Poster Thumbnail:** `../images/[ADD_AI_IRON_TRIANGLE_IMAGE].jpg`
-- **Video:** `../videos/[ADD_AI_IRON_TRIANGLE_VIDEO].mp4`
+- **YouTube URL:** `[ADD_AI_IRON_TRIANGLE_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_AI_IRON_TRIANGLE_YOUTUBE_EMBED_LINK]`
 
 ### Fruit Love Island (Cove)
 
 - **Card Title:** Fruit Love Island
 - **Description:** Cove takes on Fruit Love Island with chaotic AI energy.
-- **Poster Thumbnail:** `../images/[ADD_FRUIT_LOVE_ISLAND_IMAGE].jpg`
-- **Video:** `../videos/[ADD_FRUIT_LOVE_ISLAND_VIDEO].mp4`
+- **YouTube URL:** `[ADD_FRUIT_LOVE_ISLAND_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_FRUIT_LOVE_ISLAND_YOUTUBE_EMBED_LINK]`
 
 ### AI in Film (Holly Wood)
 
 - **Card Title:** AI in Film
 - **Description:** Holly Wood talks about AI in film and what it changes.
-- **Poster Thumbnail:** `../images/[ADD_AI_IN_FILM_IMAGE].jpg`
-- **Video:** `../videos/[ADD_AI_IN_FILM_VIDEO].mp4`
+- **YouTube URL:** `[ADD_AI_IN_FILM_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_AI_IN_FILM_YOUTUBE_EMBED_LINK]`
 
 ### AI Data Centers (Holly Wood)
 
 - **Card Title:** AI Data Centers
 - **Description:** Holly Wood explores what AI data centers mean for the future.
-- **Poster Thumbnail:** `../images/[ADD_AI_DATA_CENTERS_IMAGE].jpg`
-- **Video:** `../videos/[ADD_AI_DATA_CENTERS_VIDEO].mp4`
+- **YouTube URL:** `[ADD_AI_DATA_CENTERS_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_AI_DATA_CENTERS_YOUTUBE_EMBED_LINK]`
 
 ### AI Audience Reception (Sunny)
 
 - **Card Title:** AI Audience Reception
 - **Description:** Sunny unpacks how audiences react to AI-generated content.
-- **Poster Thumbnail:** `../images/[ADD_AI_AUDIENCE_RECEPTION_IMAGE].jpg`
-- **Video:** `../videos/[ADD_AI_AUDIENCE_RECEPTION_VIDEO].mp4`
+- **YouTube URL:** `[ADD_AI_AUDIENCE_RECEPTION_YOUTUBE_LINK]`
+- **YouTube Embed URL:** `[ADD_AI_AUDIENCE_RECEPTION_YOUTUBE_EMBED_LINK]`
 
 ## Persona Engineering
 
