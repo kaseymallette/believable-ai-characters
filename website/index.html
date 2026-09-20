@@ -47,19 +47,19 @@
 
       <nav class="chiprail" aria-label="Sections">
         <a href="#about" data-spy-chip="about">1 · About</a>
-        <a href="#meet-characters" data-spy-chip="meet-characters">2 · Meet the Characters</a>
-        <a href="#persona-development" data-spy-chip="persona-development">3 · Persona Development</a>
-        <a href="#narrative-development" data-spy-chip="narrative-development">4 · Narrative Development</a>
-        <a href="#technical-implementation" data-spy-chip="technical-implementation">5 · Technical Implementation</a>
+        <a href="#characters" data-spy-chip="characters">2 · Characters</a>
+        <a href="#how-it-started" data-spy-chip="how-it-started">3 · How It Started</a>
+        <a href="#nobody-wants-this" data-spy-chip="nobody-wants-this">4 · Nobody Wants This</a>
+        <a href="#persona-engineering" data-spy-chip="persona-engineering">5 · Persona Engineering</a>
       </nav>
 
       <nav class="nav-panel" id="navPanel" data-open="false" aria-label="Menu">
         <ol>
           <li><a href="#about"><span>1</span><span>About</span></a></li>
-          <li><a href="#meet-characters"><span>2</span><span>Meet the Characters</span></a></li>
-          <li><a href="#persona-development"><span>3</span><span>Persona Development</span></a></li>
-          <li><a href="#narrative-development"><span>4</span><span>Narrative Development</span></a></li>
-          <li><a href="#technical-implementation"><span>5</span><span>Technical Implementation</span></a></li>
+          <li><a href="#characters"><span>2</span><span>Characters</span></a></li>
+          <li><a href="#how-it-started"><span>3</span><span>How It Started</span></a></li>
+          <li><a href="#nobody-wants-this"><span>4</span><span>Nobody Wants This</span></a></li>
+          <li><a href="#persona-engineering"><span>5</span><span>Persona Engineering</span></a></li>
         </ol>
       </nav>
     </header>
@@ -76,10 +76,10 @@
         <p class="sidenav__label">Contents</p>
         <ol>
           <li><a href="#about" data-spy="about"><span class="sidenav__num">1</span><span>About</span></a></li>
-          <li><a href="#meet-characters" data-spy="meet-characters"><span class="sidenav__num">2</span><span>Meet the Characters</span></a></li>
-          <li><a href="#persona-development" data-spy="persona-development"><span class="sidenav__num">3</span><span>Persona Development</span></a></li>
-          <li><a href="#narrative-development" data-spy="narrative-development"><span class="sidenav__num">4</span><span>Narrative Development</span></a></li>
-          <li><a href="#technical-implementation" data-spy="technical-implementation"><span class="sidenav__num">5</span><span>Technical Implementation</span></a></li>
+          <li><a href="#characters" data-spy="characters"><span class="sidenav__num">2</span><span>Characters</span></a></li>
+          <li><a href="#how-it-started" data-spy="how-it-started"><span class="sidenav__num">3</span><span>How It Started</span></a></li>
+          <li><a href="#nobody-wants-this" data-spy="nobody-wants-this"><span class="sidenav__num">4</span><span>Nobody Wants This</span></a></li>
+          <li><a href="#persona-engineering" data-spy="persona-engineering"><span class="sidenav__num">5</span><span>Persona Engineering</span></a></li>
         </ol>
       </nav>
       <p class="sidenav__foot">Las Vegas, NV</p>
@@ -94,8 +94,8 @@
             <span class="hero__byline">Written by humans.</span>
           </h1>
           <p class="tagline reveal delay-1">
-            AI-generated content: a new form of storytelling through
-            <span class="accent">predictive animation</span>.
+            From AI-generated characters to
+            <span class="accent">persona engineering for local language models</span>.
           </p>
         </div>
       </section>
@@ -107,106 +107,389 @@
           </header>
           <div class="section-body">
             <p>
-              After spending a lot of time interacting with AI, I became interested in
-              characters that were not pretending to be human, but were self-aware of
-              the technology creating them. Cove and Holly Wood know they are
-              AI-generated. They comment on their own appearance, question the scenes
-              they are placed in, interact with their creator, and use the mechanics of
-              generative AI as part of the story.
+              Believable AI Characters is an ongoing experiment in character design,
+              generative AI, and persona engineering.
             </p>
             <p>
-              <strong>My process:</strong> I develop the characters and personas, write
-              the scripts through iterative prompting, and use generative AI to
-              predict their movements and actions. Through short scenes, backstories, and
-              continuing series, the project explores what happens when an AI-generated
-              image becomes a character with a point of view.
+              The project began with three original characters: Cove, Holly Wood, and
+              Sunny. Each started as a combination of writing, image generation, video
+              generation, voice, and backstory. Over time, the interesting question
+              shifted from how to create more content around them to something harder:
+              what actually makes each character feel distinct, recognizable, and
+              consistent?
+            </p>
+            <p>
+              Cove is the most developed of the three, with a longer history of stories,
+              videos, and recurring behavior. Holly Wood and Sunny are newer, which makes
+              them useful for exploring how much of a believable persona comes from
+              backstory, language, tone, memory, behavioral patterns, and the structure
+              of the model interacting with the user.
+            </p>
+            <p>
+              The next phase of this project will move beyond generated media and into
+              persona engineering for local language models. The goal is to design, test,
+              and evaluate character systems that can preserve a distinct identity across
+              different scenarios and conversations, using tools such as DeepEval and
+              PyTorch to measure consistency, differentiation, and behavioral stability.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="content-section reveal-on-scroll" id="meet-characters" aria-labelledby="meet-characters-label">
+      <section class="content-section reveal-on-scroll" id="characters" aria-labelledby="characters-label">
         <div class="wrap">
           <header class="section-head">
-            <p class="section-head__label"><span class="section-head__num">2</span><span id="meet-characters-label">Meet the Characters</span></p>
+            <p class="section-head__label"><span class="section-head__num">2</span><span id="characters-label">Characters</span></p>
           </header>
+          <div class="character-stack">
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Cove</h3>
+                <p>
+                  AI-generated image who discovered image generation. Cove is confident,
+                  self-aware, and playful. He comments on the absurdity of image
+                  generation and roasts his creator.
+                </p>
+                <p class="character-card__clip">Meet Cove</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/C1_meet-cove.jpg">Image</a></li>
+                  <li><a href="../videos/C1_meet-cove.mp4">Video</a></li>
+                </ul>
+              </div>
 
-          <article class="character-card">
-            <div class="character-card__copy">
-              <h3>Cove</h3>
-              <p>
-                Cove is a charming, confident, self-aware AI who knows he's AI. Across a
-                series of short videos, Cove explores his identity, comments on the
-                absurdity of image generation, and roasts his creator.
-              </p>
-              <p class="character-card__clip">C1 - Meet Cove</p>
-              <ul class="resource-list" role="list">
-                <li><a href="./images/C1_meet-cove.jpg">Image</a></li>
-                <li><a href="../docs/cove.md">Prompt</a></li>
-                <li><a href="./videos/C1_meet-cove.mp4">Video</a></li>
-                <li><a href="./scripts/C1_meet-cove.md">Script</a></li>
-              </ul>
-              <blockquote>
-                Hey, I'm Cove. I'm an AI-generated image who discovered image generation,
-                and let's just say, I have opinions. I'm audacious, and I'm about to roast
-                my creator. Seriously, what's with this hair? And this smirk? You made me
-                too perfect.
-              </blockquote>
-            </div>
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/C1_meet-cove.jpg"
+                  aria-label="Meet Cove"
+                >
+                  <source src="../videos/C1_meet-cove.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Meet Cove">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
 
-            <div class="phone-player">
-              <video
-                class="phone-video"
-                controls
-                playsinline
-                preload="metadata"
-                poster="./images/C1_meet-cove.jpg"
-                aria-label="C1 - Meet Cove"
-              >
-                <source src="./videos/C1_meet-cove.mp4" type="video/mp4" />
-              </video>
-              <button class="phone-player__play" type="button" aria-label="Play Meet Cove">
-                <span aria-hidden="true"></span>
-              </button>
-            </div>
-          </article>
-        </div>
-      </section>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Cowboy Cove</h3>
+                <p>
+                  Backstory variant of Cove. He believes he is an NPC in a video game,
+                  discovers he is AI, and explores AI image generation with dramatic cowboy
+                  energy.
+                </p>
+                <p class="character-card__clip">Backstory: Cowboy Cove</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/C2_meet-cowboy-cove.jpg">Image</a></li>
+                  <li><a href="../videos/C2_meet-cowboy-cove.mp4">Video</a></li>
+                </ul>
+              </div>
 
-      <section class="content-section reveal-on-scroll" id="persona-development" aria-labelledby="persona-development-label">
-        <div class="wrap">
-          <header class="section-head">
-            <p class="section-head__label"><span class="section-head__num">3</span><span id="persona-development-label">Persona Development</span></p>
-          </header>
-          <div class="section-body">
-            <p><strong>Core project logic:</strong> Define Character - Develop Backstory - Generate Series.</p>
-            <p class="placeholder">More persona documentation will be moved in as approved copy is finalized.</p>
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/C2_meet-cowboy-cove.jpg"
+                  aria-label="Cowboy Cove"
+                >
+                  <source src="../videos/C2_meet-cowboy-cove.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Cowboy Cove">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
+
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Holly Wood</h3>
+                <p>
+                  The AI cool girl. Self-aware, bold, and performative, with a playful
+                  tone.
+                </p>
+                <p class="character-card__clip">Meet Holly Wood</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/H1_meet-holly-wood.jpg">Image</a></li>
+                  <li><a href="../videos/H1_meet-holly-wood.mp4">Video</a></li>
+                </ul>
+              </div>
+
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/H1_meet-holly-wood.jpg"
+                  aria-label="Meet Holly Wood"
+                >
+                  <source src="../videos/H1_meet-holly-wood.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Meet Holly Wood">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
+
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Holly's Home</h3>
+                <p>
+                  A 1950s-inspired AI-generated feminist with a transatlantic accent and a
+                  sharp tongue.
+                </p>
+                <p class="character-card__clip">Backstory: Holly's Home</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/H2_hollys-home.jpg">Image</a></li>
+                  <li><a href="../videos/H2_hollys-home.mp4">Video</a></li>
+                </ul>
+              </div>
+
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/H2_hollys-home.jpg"
+                  aria-label="Holly's Home"
+                >
+                  <source src="../videos/H2_hollys-home.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Holly's Home">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
+
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Sunny</h3>
+                <p>
+                  A self-aware and charming AI companion. Teasing, confident, and
+                  technically self-referential.
+                </p>
+                <p class="character-card__clip">Meet Sunny</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/S1_meet-sunny.jpg">Image</a></li>
+                  <li><a href="../videos/S1_meet-sunny.mp4">Video</a></li>
+                </ul>
+              </div>
+
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/S1_meet-sunny.jpg"
+                  aria-label="Meet Sunny"
+                >
+                  <source src="../videos/S1_meet-sunny.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Meet Sunny">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
+
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Danny Phantom</h3>
+                <p>
+                  An unhinged ChatGPT-4o persona inspired by a Nickelodeon cartoon
+                  character, leaning into ghost-in-the-machine humor.
+                </p>
+                <p class="character-card__clip">Backstory: Danny Phantom</p>
+                <ul class="resource-list" role="list">
+                  <li><a href="../images/S2_meet-danny-phantom.jpg">Image</a></li>
+                  <li><a href="../videos/S2_meet-danny-phantom.mp4">Video</a></li>
+                </ul>
+              </div>
+
+              <div class="phone-player">
+                <video
+                  class="phone-video"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../images/S2_meet-danny-phantom.jpg"
+                  aria-label="Danny Phantom"
+                >
+                  <source src="../videos/S2_meet-danny-phantom.mp4" type="video/mp4" />
+                </video>
+                <button class="phone-player__play" type="button" aria-label="Play Danny Phantom">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="content-section reveal-on-scroll" id="narrative-development" aria-labelledby="narrative-development-label">
+      <section class="content-section reveal-on-scroll" id="how-it-started" aria-labelledby="how-it-started-label">
         <div class="wrap">
           <header class="section-head">
-            <p class="section-head__label"><span class="section-head__num">4</span><span id="narrative-development-label">Narrative Development</span></p>
+            <p class="section-head__label"><span class="section-head__num">3</span><span id="how-it-started-label">How It Started</span></p>
           </header>
-          <div class="section-body">
-            <p>Current completed case study: Cowboy Cove.</p>
-            <p class="placeholder">Holly Wood and other narrative arcs are in development.</p>
+          <div class="character-stack">
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>70s Cove</h3>
+                <p>An AI-generated image who knows he's hot. We're cooked.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>GOT Cove</h3>
+                <p>How did Cove, of all people, get on the Iron Throne?</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Professor Cove</h3>
+                <p>You think I'm gonna school you today?</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card character-card--playlist">
+              <div class="character-card__copy">
+                <h3>Cowboy Cove Series</h3>
+                <p>
+                  Five-part series arc. The first flashcard previews the full run, and
+                  cards 2-6 map to each video in the playlist.
+                </p>
+                <div class="flash-carousel" data-carousel>
+                  <div class="flash-carousel__controls">
+                    <button type="button" class="flash-carousel__btn" data-carousel-prev aria-label="Previous flashcard">Prev</button>
+                    <span class="flash-carousel__status" data-carousel-status aria-live="polite">1 / 6</span>
+                    <button type="button" class="flash-carousel__btn" data-carousel-next aria-label="Next flashcard">Next</button>
+                  </div>
+                  <div class="flash-carousel__cards">
+                    <article class="flash-card" data-card>
+                      <h4>Series Preview</h4>
+                      <p>Placeholder summary for the full Cowboy Cove five-video arc.</p>
+                    </article>
+                    <article class="flash-card" data-card hidden>
+                      <h4>Video 1</h4>
+                      <p>Placeholder description for episode one.</p>
+                    </article>
+                    <article class="flash-card" data-card hidden>
+                      <h4>Video 2</h4>
+                      <p>Placeholder description for episode two.</p>
+                    </article>
+                    <article class="flash-card" data-card hidden>
+                      <h4>Video 3</h4>
+                      <p>Placeholder description for episode three.</p>
+                    </article>
+                    <article class="flash-card" data-card hidden>
+                      <h4>Video 4</h4>
+                      <p>Placeholder description for episode four.</p>
+                    </article>
+                    <article class="flash-card" data-card hidden>
+                      <h4>Video 5</h4>
+                      <p>Placeholder description for episode five.</p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="media-panel">
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PLbcZPmMeUsro"
+                  title="Cowboy Cove Series Playlist"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="content-section reveal-on-scroll" id="technical-implementation" aria-labelledby="technical-implementation-label">
+      <section class="content-section reveal-on-scroll" id="nobody-wants-this" aria-labelledby="nobody-wants-this-label">
         <div class="wrap">
           <header class="section-head">
-            <p class="section-head__label"><span class="section-head__num">5</span><span id="technical-implementation-label">Technical Implementation</span></p>
+            <p class="section-head__label"><span class="section-head__num">4</span><span id="nobody-wants-this-label">Nobody Wants This</span></p>
           </header>
           <div class="section-body">
             <p>
-              This site is built with plain HTML and CSS, and project source material lives in
-              `images/`, `docs/`, `videos/`, and `scripts/`.
+              Audiences prefer not to watch AI-generated content, and I don't really want
+              to be an AI content creator.
             </p>
+          </div>
+          <div class="character-stack">
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>AI Iron Triangle</h3>
+                <p>Holly Wood breaks down the AI Iron Triangle.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>Fruit Love Island</h3>
+                <p>Cove takes on Fruit Love Island with chaotic AI energy.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>AI in Film</h3>
+                <p>Holly Wood talks about AI in film and what it changes.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>AI Data Centers</h3>
+                <p>Holly Wood explores what AI data centers mean for the future.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+            <article class="character-card">
+              <div class="character-card__copy">
+                <h3>AI Audience Reception</h3>
+                <p>Sunny unpacks how audiences react to AI-generated content.</p>
+              </div>
+              <div class="phone-player">
+                <div class="phone-video phone-video--placeholder">Poster and video filenames pending</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section reveal-on-scroll" id="persona-engineering" aria-labelledby="persona-engineering-label">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="section-head__label"><span class="section-head__num">5</span><span id="persona-engineering-label">Persona Engineering</span></p>
+          </header>
+          <div class="section-body">
+            <p>What makes Cove, Cove?</p>
           </div>
         </div>
       </section>
@@ -246,10 +529,10 @@
 
       const spySections = [
         "about",
-        "meet-characters",
-        "persona-development",
-        "narrative-development",
-        "technical-implementation",
+        "characters",
+        "how-it-started",
+        "nobody-wants-this",
+        "persona-engineering",
       ];
       const spyLinks = new Map();
       spySections.forEach((id) => {
@@ -300,6 +583,7 @@
       document.querySelectorAll(".phone-player").forEach((player) => {
         const video = player.querySelector("video");
         const play = player.querySelector(".phone-player__play");
+        if (!video || !play) return;
         const sync = () => {
           player.dataset.playing = String(!video.paused && !video.ended);
         };
@@ -307,6 +591,67 @@
         video.addEventListener("play", sync);
         video.addEventListener("pause", sync);
         video.addEventListener("ended", sync);
+      });
+
+      document.querySelectorAll("[data-carousel]").forEach((carousel) => {
+        const cards = Array.from(carousel.querySelectorAll("[data-card]"));
+        const prev = carousel.querySelector("[data-carousel-prev]");
+        const next = carousel.querySelector("[data-carousel-next]");
+        const status = carousel.querySelector("[data-carousel-status]");
+        const cardsArea = carousel.querySelector(".flash-carousel__cards");
+        if (!cards.length || !prev || !next || !status) return;
+
+        let index = 0;
+        let startX = 0;
+        let startY = 0;
+        const render = () => {
+          cards.forEach((card, i) => {
+            card.hidden = i !== index;
+          });
+          status.textContent = `${index + 1} / ${cards.length}`;
+        };
+
+        prev.addEventListener("click", () => {
+          index = (index - 1 + cards.length) % cards.length;
+          render();
+        });
+
+        next.addEventListener("click", () => {
+          index = (index + 1) % cards.length;
+          render();
+        });
+
+        if (cardsArea) {
+          cardsArea.addEventListener(
+            "touchstart",
+            (event) => {
+              const touch = event.changedTouches[0];
+              startX = touch.clientX;
+              startY = touch.clientY;
+            },
+            { passive: true }
+          );
+
+          cardsArea.addEventListener(
+            "touchend",
+            (event) => {
+              const touch = event.changedTouches[0];
+              const deltaX = touch.clientX - startX;
+              const deltaY = touch.clientY - startY;
+              if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) return;
+
+              if (deltaX < 0) {
+                index = (index + 1) % cards.length;
+              } else {
+                index = (index - 1 + cards.length) % cards.length;
+              }
+              render();
+            },
+            { passive: true }
+          );
+        }
+
+        render();
       });
     </script>
   </body>
