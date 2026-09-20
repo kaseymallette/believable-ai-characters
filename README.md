@@ -8,7 +8,7 @@ The project began with original characters created through writing, iterative pr
 
 ## In Development
 
-Website copy is maintained in `website/COPY.md`; current development is focused on persona engineering.
+Website copy is maintained in `website/COPY.md`. Current development is focused on persona engineering.
 
 ## Website Structure
 - Hero
