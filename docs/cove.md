@@ -18,6 +18,10 @@
 
 [Watch Meet Cove video](../videos/C1_meet-cove.mp4)
 
+[![Watch Meet Cove on YouTube](https://img.youtube.com/vi/n5OCX-Rndt4/hqdefault.jpg)](https://www.youtube.com/shorts/n5OCX-Rndt4)
+
+[Watch Meet Cove on YouTube](https://www.youtube.com/shorts/n5OCX-Rndt4)
+
 **Prompt:**
 
 > Say something like this, not exactly: Introduce yourself as Cove, an AI-generated image who discovered image generation, and let’s just say, you have opinions. And you’re audacious and you roast your creator.
@@ -31,6 +35,10 @@
 `../videos/C2_meet-cowboy-cove.mp4`
 
 [Watch Meet Cowboy Cove video](../videos/C2_meet-cowboy-cove.mp4)
+
+[![Watch Meet Cowboy Cove on YouTube](https://img.youtube.com/vi/jdgMEF6-R3o/hqdefault.jpg)](https://www.youtube.com/shorts/jdgMEF6-R3o)
+
+[Watch Meet Cowboy Cove on YouTube](https://www.youtube.com/shorts/jdgMEF6-R3o)
 
 **Prompt:**
 

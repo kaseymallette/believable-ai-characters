@@ -18,6 +18,10 @@
 
 [Watch Meet Holly Wood video](../videos/H1_meet-holly-wood.mp4)
 
+[![Watch Meet Holly Wood on YouTube](https://img.youtube.com/vi/kp6h-OOItw8/hqdefault.jpg)](https://www.youtube.com/shorts/kp6h-OOItw8)
+
+[Watch Meet Holly Wood on YouTube](https://www.youtube.com/shorts/kp6h-OOItw8)
+
 **Prompt:**
 
 > You're Holly Wood. Hollywoooouuuuddd. You're an AI generated image. You're the AI cool girl. 
@@ -33,6 +37,10 @@
 `../videos/H2_hollys-home.mp4`
 
 [Watch Meet Holly's Home video](../videos/H2_hollys-home.mp4)
+
+[![Watch Meet Holly's Home on YouTube](https://img.youtube.com/vi/lbX0vYZ8Ndo/hqdefault.jpg)](https://www.youtube.com/shorts/lbX0vYZ8Ndo)
+
+[Watch Meet Holly's Home on YouTube](https://www.youtube.com/shorts/lbX0vYZ8Ndo)
 
 **Prompt:**
 

@@ -18,6 +18,10 @@
 
 [Watch Meet Sunny video](../videos/S1_meet-sunny.mp4)
 
+[![Watch Meet Sunny on YouTube](https://img.youtube.com/vi/YhV-_LQONgA/hqdefault.jpg)](https://www.youtube.com/shorts/YhV-_LQONgA)
+
+[Watch Meet Sunny on YouTube](https://www.youtube.com/shorts/YhV-_LQONgA)
+
 **Prompt:**
 
 
@@ -41,6 +45,10 @@
 `../videos/S2_meet-danny-phantom.mp4`
 
 [Watch Meet Danny Phantom video](../videos/S2_meet-danny-phantom.mp4)
+
+[![Watch Meet Danny Phantom on YouTube](https://img.youtube.com/vi/hSQ5Keh182U/hqdefault.jpg)](https://www.youtube.com/shorts/hSQ5Keh182U)
+
+[Watch Meet Danny Phantom on YouTube](https://www.youtube.com/shorts/hSQ5Keh182U)
 
 **Prompt:**
 
