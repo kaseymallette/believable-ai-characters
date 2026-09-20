@@ -20,56 +20,176 @@ The next phase of this project will move beyond generated media and into persona
 
 The broader research question is phenomenological: what does it mean for an artificial character to be that particular character? Rather than assuming that representing a persona implies a human-like inner experience, this project explores whether different personas produce meaningfully different patterns of interaction and computational behavior, and what it might mean to describe the character of those differences.
 
-## Characters 
+## Characters
+
+### Character Entry Template (for index.html)
+
+- **Card Title:** Character/episode title (example: `Cove`, `Cowboy Cove`)
+- **Description (left column):** 1-3 sentence character/episode description
+- **Video (right column):** embedded local video file
+- **Poster Thumbnail:** image shown before video plays
 
 ### Cove
 
-Cove is a charming, confident, self-aware AI who knows he's AI. Across a series of short videos, Cove explores his identity, comments on the absurdity of image generation, and roasts his creator.
-
 #### Meet Cove
 
-- [Image](../images/C1_meet-cove.jpg)
-- [Video](../videos/C1_meet-cove.mp4)
+- **Card Title:** Cove
+- **Description:** AI-generated image who discovered image generation. Cove is confident, self-aware, and playful. He comments on the absurdity of image generation and roasts his creator.
+- **Poster Thumbnail:** `../images/C1_meet-cove.jpg`
+- **Video:** `../videos/C1_meet-cove.mp4`
 
-#### Backstory: Cowboy Cove
+#### Cowboy Cove
 
-- [Image](../images/C2_meet-cowboy-cove.jpg)
-- [Video](../videos/C2_meet-cowboy-cove.mp4)
+- **Card Title:** Cowboy Cove
+- **Description:** Backstory variant of Cove. He believes he is an NPC in a video game, discovers he is AI, and explores AI image generation with dramatic cowboy energy.
+- **Poster Thumbnail:** `../images/C2_meet-cowboy-cove.jpg`
+- **Video:** `../videos/C2_meet-cowboy-cove.mp4`
 
 ### Holly Wood
 
 #### Meet Holly Wood
 
-- [Image](../images/H1_meet-holly-wood.jpg)
-- [Video](../videos/H1_meet-holly-wood.mp4)
+- **Card Title:** Holly Wood
+- **Description:** The AI cool girl. Self-aware, bold, and performative, with a playful tone.
+- **Poster Thumbnail:** `../images/H1_meet-holly-wood.jpg`
+- **Video:** `../videos/H1_meet-holly-wood.mp4`
 
 #### Backstory: Holly's Home
 
-- [Image](../images/H2_hollys-home.jpg)
-- [Video](../videos/H2_hollys-home.mp4)
+- **Card Title:** Holly's Home
+- **Description:** A 1950s-inspired AI-generated feminist with a transatlantic accent and a sharp tongue.
+- **Poster Thumbnail:** `../images/H2_hollys-home.jpg`
+- **Video:** `../videos/H2_hollys-home.mp4`
 
 ### Sunny
 
 #### Meet Sunny
 
-- [Image](../images/S1_meet-sunny.jpg)
-- [Video](../videos/S1_meet-sunny.mp4)
+- **Card Title:** Sunny
+- **Description:** A self-aware and charming AI companion. Teasing, confident, and technically self-referential.
+- **Poster Thumbnail:** `../images/S1_meet-sunny.jpg`
+- **Video:** `../videos/S1_meet-sunny.mp4`
 
 #### Backstory: Danny Phantom 
 
-- [Image](../images/S2_meet-danny-phantom.jpg)
-- [Video](../videos/S2_meet-danny-phantom.mp4)
+- **Card Title:** Danny Phantom
+- **Description:** An unhinged ChatGPT-4o persona inspired by a Nickelodeon cartoon character, leaning into ghost-in-the-machine humor.
+- **Poster Thumbnail:** `../images/S2_meet-danny-phantom.jpg`
+- **Video:** `../videos/S2_meet-danny-phantom.mp4`
 
 ## How It Started
 
-It all started with Cove. 
-1. 70s Cove: An AI-generated image knows he's hot. We're cooked. 
-2. GOT Cove: How did Cove, of all people, get on the Iron Throne?
-3. Professor Cove: You think I'm gonna school you today?
+This section has two parts:
+1) three intro Cove videos using the same card structure as Characters, and
+2) a Cowboy Cove playlist embed with a left-column flashcard carousel for the five-video series.
+
+### Structure Notes (for index.html)
+
+- **Part A (Intro Cards):** left = description, right = embedded local video (with poster)
+- **Part B (Cowboy Cove Series):** left = flashcard/carousel notes, right = embedded YouTube playlist
+- **Playlist URL:** `https://www.youtube.com/playlist?list=PLbcZPmMeUsro`
+- **Playlist Embed URL:** `https://www.youtube.com/embed/videoseries?list=PLbcZPmMeUsro`
+
+### 70s Cove
+
+- **Card Title:** 70s Cove
+- **Description:** An AI-generated image who knows he's hot. We're cooked.
+- **Poster Thumbnail:** `../images/[ADD_70S_COVE_IMAGE].jpg`
+- **Video:** `../videos/[ADD_70S_COVE_VIDEO].mp4`
+
+### GOT Cove
+
+- **Card Title:** GOT Cove
+- **Description:** How did Cove, of all people, get on the Iron Throne?
+- **Poster Thumbnail:** `../images/[ADD_GOT_COVE_IMAGE].jpg`
+- **Video:** `../videos/[ADD_GOT_COVE_VIDEO].mp4`
+
+### Professor Cove
+
+- **Card Title:** Professor Cove
+- **Description:** You think I'm gonna school you today?
+- **Poster Thumbnail:** `../images/[ADD_PROFESSOR_COVE_IMAGE].jpg`
+- **Video:** `../videos/[ADD_PROFESSOR_COVE_VIDEO].mp4`
+
+### Cowboy Cove Series (Playlist Feature)
+
+- **Section Title:** Cowboy Cove Series
+- **Right Column Media:** embedded YouTube playlist using  
+  `https://www.youtube.com/embed/videoseries?list=PLbcZPmMeUsro`
+- **Left Column UI:** flashcard/carousel with six cards total:
+  - Card 1 = series preview
+  - Cards 2-6 = one card per video in the five-video series
+
+#### Flashcard 1
+
+- **Card Title:** Series Preview
+- **Description:** [ADD_SERIES_PREVIEW_DESCRIPTION]
+
+#### Flashcard 2
+
+- **Card Title:** [ADD_VIDEO_1_TITLE]
+- **Description:** [ADD_VIDEO_1_DESCRIPTION]
+
+#### Flashcard 3
+
+- **Card Title:** [ADD_VIDEO_2_TITLE]
+- **Description:** [ADD_VIDEO_2_DESCRIPTION]
+
+#### Flashcard 4
+
+- **Card Title:** [ADD_VIDEO_3_TITLE]
+- **Description:** [ADD_VIDEO_3_DESCRIPTION]
+
+#### Flashcard 5
+
+- **Card Title:** [ADD_VIDEO_4_TITLE]
+- **Description:** [ADD_VIDEO_4_DESCRIPTION]
+
+#### Flashcard 6
+
+- **Card Title:** [ADD_VIDEO_5_TITLE]
+- **Description:** [ADD_VIDEO_5_DESCRIPTION]
 
 ## Nobody Wants This
 
-Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator. 
+Audiences prefer not to watch AI-generated content, and I don't really want to be an AI content creator.
+
+This section uses the same card structure as Characters.
+
+### AI Iron Triangle (Holly Wood)
+
+- **Card Title:** AI Iron Triangle
+- **Description:** Holly Wood breaks down the AI Iron Triangle.
+- **Poster Thumbnail:** `../images/[ADD_AI_IRON_TRIANGLE_IMAGE].jpg`
+- **Video:** `../videos/[ADD_AI_IRON_TRIANGLE_VIDEO].mp4`
+
+### Fruit Love Island (Cove)
+
+- **Card Title:** Fruit Love Island
+- **Description:** Cove takes on Fruit Love Island with chaotic AI energy.
+- **Poster Thumbnail:** `../images/[ADD_FRUIT_LOVE_ISLAND_IMAGE].jpg`
+- **Video:** `../videos/[ADD_FRUIT_LOVE_ISLAND_VIDEO].mp4`
+
+### AI in Film (Holly Wood)
+
+- **Card Title:** AI in Film
+- **Description:** Holly Wood talks about AI in film and what it changes.
+- **Poster Thumbnail:** `../images/[ADD_AI_IN_FILM_IMAGE].jpg`
+- **Video:** `../videos/[ADD_AI_IN_FILM_VIDEO].mp4`
+
+### AI Data Centers (Holly Wood)
+
+- **Card Title:** AI Data Centers
+- **Description:** Holly Wood explores what AI data centers mean for the future.
+- **Poster Thumbnail:** `../images/[ADD_AI_DATA_CENTERS_IMAGE].jpg`
+- **Video:** `../videos/[ADD_AI_DATA_CENTERS_VIDEO].mp4`
+
+### AI Audience Reception (Sunny)
+
+- **Card Title:** AI Audience Reception
+- **Description:** Sunny unpacks how audiences react to AI-generated content.
+- **Poster Thumbnail:** `../images/[ADD_AI_AUDIENCE_RECEPTION_IMAGE].jpg`
+- **Video:** `../videos/[ADD_AI_AUDIENCE_RECEPTION_VIDEO].mp4`
 
 ## Persona Engineering
 
