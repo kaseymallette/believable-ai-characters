@@ -8,9 +8,9 @@ The project began with original characters created through writing, iterative pr
 
 ## In Development
 
-Copy is currently in development. The finalized version will be moved into `website/index.html`.
+Website copy is maintained in `website/COPY.md`; current development is focused on persona engineering.
 
-### Website Structure
+## Website Structure
 - Hero
 - About
 - Characters
