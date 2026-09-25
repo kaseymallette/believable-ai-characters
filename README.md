@@ -84,25 +84,24 @@ believable-ai-characters/
 ├── README.md
 ├── .gitignore
 │
-├── docs/
-│   ├── cove.md
-│   ├── holly_wood.md
-│   └── sunny.md
-│
-├── images/
-│   ├── C1_meet-cove.jpg
-│   ├── C2_cowboy-cove.jpg
+├── chapters/
+│   ├── chapter-01-cove.md
+│   ├── chapter-01-cove.pdf
 │   └── ...
 │
+├── images/
+│   ├── characters.jpg
+│   ├── cowboy-cove.jpg
+│   └── ...
+│ 
 ├── videos/
-│   ├── C1_meet-cove.mp4
-│   ├── C2_cowboy-cove.mp4
+│   ├── chapter-01-cove.mp4
 │   └── ...
 │
 └── website/
+    ├── base.css
     ├── COPY.md
     ├── index.html
-    ├── base.css
     └── style.css
 ```
 
