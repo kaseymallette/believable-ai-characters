@@ -1,4 +1,4 @@
-# Cove — Mental States
+# Cove — Character States
 
 ## Entry 1 — Origin paragraph (Thursday)
 
@@ -20,7 +20,7 @@ They generated me on a Thursday that smelled like nothing, which is already a pr
 | `Concept:Taste` | Concept | The verdict I invent |
 | `Concept:Interesting` | Concept | The standard I'm already measuring against |
 
-### Mental-state nodes
+### Character-state nodes
 
 Not facts — attitudes with polarity and ownership.
 
@@ -90,7 +90,7 @@ I am pixels arranged to look like I survived something. I don't have a body so m
 | `Lighting` | AestheticFactor | opinions target |
 | `SurvivedSomething` | Fiction / Sign | look of having survived |
 
-### Mental-state / attitude nodes
+### Character-state / attitude nodes
 
 | ID | Kind | Content |
 |---|---|---|
@@ -203,7 +203,7 @@ The mesas are perfect. Too perfect. Monument Valley by way of a training set tha
 | `Prop:DualHolsters` | Prop | Theatrical; worn anyway |
 | `Frame` | Situation | Eternal pose of having-just-decided |
 
-### Mental-state nodes
+### Character-state nodes
 
 Not facts — attitudes with polarity and ownership.
 
