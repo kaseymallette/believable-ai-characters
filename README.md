@@ -94,6 +94,14 @@ believable-ai-characters/
 │   ├── cowboy-cove.jpg
 │   └── ...
 │ 
+├── prompts/
+│   ├── chapter-01-cove-prompts.md
+│   └── ...
+│ 
+├── states/
+│   ├── chapter-01-cove-states.md
+│   └── ...
+│     
 ├── videos/
 │   ├── chapter-01-cove.mp4
 │   └── ...
