@@ -18,7 +18,6 @@ The original Cowboy Cove video serves as the primary narrative seed for Chapter 
 
 The completed chapter is available in both Markdown and PDF format.
 
-- [Read Chapter 01 in Markdown](../chapters/chapter-01-cove.md)
 - [Read Chapter 01 as PDF](../chapters/chapter-01-cove.pdf)
 
 ## Prompt and Response History

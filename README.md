@@ -50,7 +50,7 @@ The resulting novel follows Cove, Holly Wood, and Sunny as fictional AI characte
 
 The fiction therefore functions both as a story and as part of the research environment\.
 
-[Explore Chapter 01 - Cove →](./docs/chapter-01-cove-overview.md)
+[Explore Chapter 01 - Cove →](./docs/chapter-01-cove.md)
 
 ### 3\. Prompt and Response Store
 
@@ -195,19 +195,20 @@ believable-ai-characters/
 ├── .gitignore
 │
 ├── chapters/
-│   ├── chapter-01-cove.md
 │   ├── chapter-01-cove.pdf
 │   └── ...
 │
 ├── docs/
-│   ├── chapter-01-cove-overview.md
+│   ├── chapter-01-cove.md
 │   ├── characters.md
 │   └── ...
 │
 ├── images/
 │   ├── characters.jpg
+│   ├── cove.jpg    
 │   ├── cowboy-cove.jpg
-│   └── ...
+│   ├── holly-wood.jpg
+│   └── sunny.jpg
 │ 
 ├── prompts/
 │   ├── chapter-01-cove-prompts.md
