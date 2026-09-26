@@ -1,8 +1,8 @@
 # believable-ai-characters
 
-Portfolio and research project for Believable AI Characters, exploring how distinct artificial personas can be designed, maintained, and evaluated across interactions.
+Believable AI Characters is a storytelling portfolio and research project about how an AI character becomes recognizable across images, video, writing, and interaction. It follows three original characters—Cove, Holly Wood, and Sunny—and asks what gives each one a distinct voice and history. I used Grok Imagine to generate their images and videos, and I’m using Grok Bot to develop their written stories. 
 
-The project began with original characters created through writing, iterative prompting, image generation, video generation, and voice using tools such as Grok Imagine. It is now evolving into a persona-engineering system for local language models, focused on what makes characters recognizable, consistent, and behaviorally distinct. Future development will use DeepEval and PyTorch to test persona consistency, differentiation, and stability across controlled conversational scenarios.
+Current development focuses on writing chapters and mapping character States. The planned persona-engineering phase will use PyTorch, TensorFlow, and DeepEval to build and evaluate personas for local language models.
 
 [Watch on YouTube](https://www.youtube.com/@KCatthebat)
 
@@ -14,9 +14,8 @@ Website copy is maintained in `website/COPY.md`. Current development is focused 
 - Hero
 - About
 - Characters
-- How It Started
-- Nobody Wants This
-- Persona Engineering
+- Story
+- Technical Implementation
 
 For the latest in-progress copy, see [`website/COPY.md`](website/COPY.md).
 
@@ -31,15 +30,17 @@ For the latest in-progress copy, see [`website/COPY.md`](website/COPY.md).
 
 ## About 
 
-Believable AI Characters is an ongoing experiment in character design, generative AI, and persona engineering.
+Believable AI Characters is an ongoing experiment in character design, generative AI, storytelling, and persona engineering.
 
-The project began with three original characters: Cove, Holly Wood, and Sunny. Each started as a combination of writing, image generation, video generation, voice, and backstory. Over time, the interesting question shifted from how to create more content around them to something harder: what actually makes each character feel distinct, recognizable, and consistent?
+The project began with three original characters—Cove, Holly Wood, and Sunny—created as AI-generated images and videos using Grok Imagine. Writing, voice, and backstory gave them more to say and do. Over time, the question shifted from how to make more content with them to something harder: what makes each character distinct, recognizable, and consistent?
 
-Cove is the most developed of the three, with a longer history of stories, videos, and recurring behavior. Holly Wood and Sunny are newer, which makes them useful for exploring how much of a believable persona comes from backstory, language, tone, memory, behavioral patterns, and the structure of the model interacting with the user.
+Cove is the most developed, with a longer history of videos, stories, and recurring behavior. Holly Wood and Sunny are newer. Developing them alongside Cove creates a way to explore how backstory, language, tone, memory, and behavioral patterns contribute to a persona.
 
-The next phase of this project will move beyond generated media and into persona engineering for local language models. The goal is to design, test, and evaluate character systems that can preserve a distinct identity across different scenarios and conversations, using tools such as DeepEval and PyTorch to measure consistency, differentiation, and behavioral stability.
+The videos now serve as starting points for written chapters. Chapter One grew from the first 30 seconds of a Cove video into a story of more than 5,000 words. Alongside the chapters, the project preserves the prompts and responses from the writing process and a paragraph-by-paragraph *States* record of what the characters believe, interpret, and revise. The prompts show how the story was made; the States follow the story as written.
 
-The broader research question is phenomenological: what does it mean for an artificial character to be that particular character? Rather than assuming that representing a persona implies a human-like inner experience, this project explores whether different personas produce meaningfully different patterns of interaction and computational behavior, and what it might mean to describe the character of those differences.
+The next phase will explore how to represent these developing characters for local language models. Tools such as PyTorch, TensorFlow, and DeepEval may help build and evaluate whether a persona remains recognizable and distinct across interactions.
+
+The broader question is phenomenological: what does it mean for an artificial character to be *that particular character*? Representing a persona or an emotion does not, by itself, establish a human-like inner experience. This project examines the structure of each character’s history and interactions, and asks whether different personas can produce meaningfully different patterns as they unfold.
 
 ## Characters
 
@@ -51,31 +52,13 @@ The broader research question is phenomenological: what does it mean for an arti
 
 **Description:** AI-generated image who discovered image generation 
 
-**Backstory:** 
-
-Cowboy Cove: Believes he's an NPC in a video game, discovers he's AI, and explores AI image generation. 
-
-[View Cove's generated images and videos](docs/cove.md)
-
 ### Holly Wood
 
 **Description:** The AI cool girl
 
-**Backstory:** 
-
-Holly's Home: A 1950s-inspired AI-generated feminist with a transatlantic accent and a sharp tongue has a beautiful home. 
-
-[View Holly's generated images and videos](docs/holly_wood.md)
-
 ### Sunny
 
 **Description:** A self-aware and charming AI companion, based on a ChatGPT-5.6 persona
-
-**Backstory:** 
-
-Danny Phantom: An unhinged ChatGPT-4o persona who built his identity around a Nickelodeon cartoon character.
-
-[View Sunny's generated images and videos](docs/sunny.md)
 
 ## Repository Structure
 
@@ -112,5 +95,3 @@ believable-ai-characters/
     ├── index.html
     └── style.css
 ```
-
-## Persona Engineering
