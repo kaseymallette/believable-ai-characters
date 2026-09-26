@@ -18,6 +18,8 @@ The project is built as a multi\-stage system rather than a single persona promp
 
 Cove, Holly Wood, and Sunny originated in Grok Imagine\.
 
+[Meet the characters →](docs/characters.md)
+
 The characters were first created as AI\-generated images and then developed through repeated visual iteration and video generation\. Their appearance, presentation, personality cues, and recurring visual representations emerged through this process rather than from a completed persona specification written in advance\.
 
 Grok Imagine is used for:
