@@ -1,4 +1,4 @@
-# Chapter 01 — Cove Overview
+# Chapter 01 — Cove
 
 This chapter is the initial end-to-end narrative prototype for Believable AI Characters.
 
@@ -10,15 +10,15 @@ The chapter brings together the project’s visual generation, narrative develop
 
 ## Source Video
 
-The original Cowboy Cove video serves as the primary narrative seed for Chapter One.
+The original Cowboy Cove video serves as the primary narrative seed for the chapter. 
 
 [Watch Chapter 01 — Cove](../videos/chapter-01-cove.mp4)
 
 ## Chapter
 
-The completed chapter is available in both Markdown and PDF format.
+The completed chapter is available in PDF format.
 
-- [Read Chapter 01 as PDF](../chapters/chapter-01-cove.pdf)
+[Read as a PDF](../chapters/chapter-01-cove.pdf)
 
 ## Prompt and Response History
 
@@ -26,7 +26,7 @@ The chapter was developed through a sequence of prompts and model responses usin
 
 The prompt history preserves the process behind the finished narrative, including the instructions, generated responses, revisions, and character-development decisions that contributed to the chapter.
 
-[View Chapter 01 prompts and responses](../prompts/chapter-01-cove-prompts.md)
+[View prompts and responses](../prompts/chapter-01-cove-prompts.md)
 
 ## Character States
 
@@ -36,7 +36,7 @@ The state record tracks changes in what Cove knows, believes, interprets, rememb
 
 These states provide the initial structured data for the project’s character-state graph and later persona-engineering experiments.
 
-[View Chapter 01 character states](../states/chapter-01-cove-states.md)
+[View character states](../states/chapter-01-cove-states.md)
 
 ## Prototype Pipeline
 
