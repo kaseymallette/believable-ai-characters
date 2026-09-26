@@ -1,64 +1,216 @@
-# believable-ai-characters
+# believable\-ai\-characters
 
-Believable AI Characters is a storytelling portfolio and research project about how an AI character becomes recognizable across images, video, writing, and interaction. It follows three original characters—Cove, Holly Wood, and Sunny—and asks what gives each one a distinct voice and history. I used Grok Imagine to generate their images and videos, and I’m using Grok Bot to develop their written stories. 
+Believable AI Characters is a storytelling, research, and persona\-engineering project investigating how distinct AI personas are created, represented, tracked, and engineered\.
 
-Current development focuses on writing chapters and mapping character States. The planned persona-engineering phase will use PyTorch, TensorFlow, and DeepEval to build and evaluate personas for local language models.
+The project follows three original AI characters—Cove, Holly Wood, and Sunny—across image generation, video, narrative fiction, structured character\-state tracking, portfolio presentation, and experimental persona engineering\.
 
-[Watch on YouTube](https://www.youtube.com/@KCatthebat)
+The project begins with a concrete character\-design question:
 
-## In Development
+**What makes an AI character that particular character?**
 
-Website copy is maintained in `website/COPY.md`. Current development is focused on persona engineering.
+It is evolving into a broader technical investigation of what makes personas distinct, which components produce that distinctiveness, and whether those components can be systematically represented and manipulated\.
 
-## Website Structure
-- Hero
+## Project Pipeline
+
+The project is built as a multi\-stage system rather than a single persona prompt\.
+
+### 1\. Character and Media Generation
+
+Cove, Holly Wood, and Sunny originated in Grok Imagine\.
+
+The characters were first created as AI\-generated images and then developed through repeated visual iteration and video generation\. Their appearance, presentation, personality cues, and recurring visual representations emerged through this process rather than from a completed persona specification written in advance\.
+
+Grok Imagine is used for:
+
+- creating the original character images
+- character design and visual iteration
+- generating alternate visual representations of each character
+- AI video generation
+- developing recurring scenes, performances, and character concepts
+
+As the characters developed, generated videos were storyboarded and organized into scenes and character concepts\. Original videos are also published to YouTube, creating a chronological media record of how Cove, Holly Wood, and Sunny evolved\.
+
+This visual generation process is the beginning of the larger project pipeline:
+
+**character concept → image → video → storyboard → scene → chapter**
+
+The generated media is therefore not separate promotional material created after the characters or story already exist\. It is part of how the characters were created in the first place\.
+
+The images and videos become narrative seeds for the fiction, which then provides additional material for character\-state tracking and later persona\-engineering experiments\.
+
+### 2\. Narrative Fiction
+
+The visual material is expanded into narrative fiction\.
+
+Grok Bot is used as a collaborative writing system for developing character scenes and chapters from the existing videos, character concepts, and story structure\.
+
+The resulting novel follows Cove, Holly Wood, and Sunny as fictional AI characters who eventually begin investigating the same problem as the technical project: what makes a persona itself?
+
+The fiction therefore functions both as a story and as part of the research environment\.
+
+### 3\. Prompt and Response Store
+
+The writing process is preserved rather than reduced to the final prose\.
+
+The `prompts/` directory stores the prompts and model responses used to develop character scenes and chapters\.
+
+This creates a record of:
+
+- author instructions
+- model interpretations
+- revisions
+- rejected directions
+- character\-development decisions
+- changes in language and characterization across iterations
+
+The goal is to preserve not only what was written, but how the character was produced\.
+
+### 4\. Character State Infrastructure
+
+A separate character\-state workflow analyzes the completed fiction\.
+
+A Character States Bot processes the story paragraph by paragraph and records changes in each character’s state, including what the character:
+
+- knows
+- believes
+- interprets
+- remembers
+- wants
+- notices
+- misunderstands
+- revises
+
+These records are stored in `states/`\.
+
+The longer\-term goal is to represent these evolving states through a graph\-based character\-state framework, allowing character development to be modeled as relationships and transitions rather than as a static biography or system prompt\.
+
+This creates two complementary records:
+
+**Prompts document how the story was generated\.**
+
+**States document what exists inside the story once it has been written\.**
+
+Together, they preserve both the production process and the evolving internal structure of the characters produced by that process\.
+
+### 5\. Website and Portfolio
+
+The project website serves as the public\-facing layer connecting the characters, media, fiction, and technical work\.
+
+The website is organized around:
+
 - About
 - Characters
 - Story
 - Technical Implementation
 
-For the latest in-progress copy, see [`website/COPY.md`](website/COPY.md).
+Each character has a dedicated space connecting their visual development, videos, narrative fiction, and technical artifacts\.
 
+The Story section presents the novel chapter by chapter\. Where applicable, each chapter can include:
 
-## Hero
+- the video or videos that served as narrative seeds
+- contextual material showing how the visual concept developed into fiction
+- a PDF of the completed chapter
+- links to the corresponding repository materials
 
-> Believable AI Characters
->
-> Written by humans.
-> 
-> *From AI-generated characters to persona engineering for local language models.*
+This makes the development process visible rather than presenting only the finished story\.
 
-## About 
+The website functions as both a narrative experience and a technical portfolio, showing how generative media, AI\-assisted writing, prompt capture, character\-state tracking, and persona engineering fit together\.
 
-Believable AI Characters is an ongoing experiment in character design, generative AI, storytelling, and persona engineering.
+It also links back to the GitHub repository, where prompts, states, code, documentation, and technical experiments are maintained\.
 
-The project began with three original characters—Cove, Holly Wood, and Sunny—created as AI-generated images and videos using Grok Imagine. Writing, voice, and backstory gave them more to say and do. Over time, the question shifted from how to make more content with them to something harder: what makes each character distinct, recognizable, and consistent?
+### 6\. Persona Engineering
 
-Cove is the most developed, with a longer history of videos, stories, and recurring behavior. Holly Wood and Sunny are newer. Developing them alongside Cove creates a way to explore how backstory, language, tone, memory, and behavioral patterns contribute to a persona.
+The technical phase moves beyond writing increasingly detailed persona descriptions toward experimentally modeling persona\.
 
-The videos now serve as starting points for written chapters. Chapter One grew from the first 30 seconds of a Cove video into a story of more than 5,000 words. Alongside the chapters, the project preserves the prompts and responses from the writing process and a paragraph-by-paragraph *States* record of what the characters believe, interpret, and revise. The prompts show how the story was made; the States follow the story as written.
+Instead of relying primarily on prompts such as:
 
-The next phase will explore how to represent these developing characters for local language models. Tools such as PyTorch, TensorFlow, and DeepEval may help build and evaluate whether a persona remains recognizable and distinct across interactions.
+> You are Cove.  
+> You have this backstory.  
+> You speak this way.
 
-The broader question is phenomenological: what does it mean for an artificial character to be *that particular character*? Representing a persona or an emotion does not, by itself, establish a human-like inner experience. This project examines the structure of each character’s history and interactions, and asks whether different personas can produce meaningfully different patterns as they unfold.
+the project investigates whether persona can be decomposed into controllable and measurable dimensions\.
 
-## Characters
+Cove, Holly Wood, and Sunny provide three existing case studies\. Their language, character states, prompt histories, relationships, and development across the story create a corpus that can be analyzed for features associated with persistent character differentiation\.
 
-![Characters](images/characters.jpg)
+Potential dimensions may include:
 
-*Left to right: Cove, Holly Wood, Sunny.*
+- language and linguistic style
+- memory
+- biography and history
+- goals and motivations
+- values
+- relationships
+- temporal representation
+- behavioral tendencies
+- self\-modeling
+- contradictions and internal tensions
 
-### Cove
+These dimensions are hypotheses rather than predetermined components\. Determining which variables matter, how they interact, how they should be represented, and whether they produce measurable changes in persona is part of the engineering problem\.
 
-**Description:** AI-generated image who discovered image generation 
+The project will investigate:
 
-### Holly Wood
+- which variables meaningfully affect persona
+- which variables interact
+- which features produce persistent differentiation
+- why different characters sometimes converge toward the same voice
+- why all three characters sometimes begin sounding like their creator
+- which characteristics remain stable across contexts
+- which features belong to the character, the underlying model, or the interaction between them
+- whether distinct persona configurations can be systematically generated and evaluated
 
-**Description:** The AI cool girl
+The goal is not simply to create chatbots with more detailed backstories\.
 
-### Sunny
+It is to develop a framework for constructing, varying, measuring, and evaluating AI personas\.
 
-**Description:** A self-aware and charming AI companion, based on a ChatGPT-5.6 persona
+## Planned Technical Stack
+
+The persona\-engineering phase will use tools including:
+
+- PyTorch for experimental modeling and representation work
+- DeepEval for evaluating persona consistency, differentiation, and stability
+- local language models for controlled persona experiments
+- embeddings and graph\-based representations for character\-state and relationship modeling
+- retrieval\-augmented generation &#40;RAG&#41; for connecting models to the novel, character states, and supporting project material
+
+The exact persona representation is intentionally not predetermined\. Determining what should be represented, how it should be encoded, and how it should be evaluated is part of the research\.
+
+## Two Connected Investigations
+
+Believable AI Characters approaches the same problem through fiction and engineering\.
+
+Inside the novel, Cove, Holly Wood, and Sunny develop, interact, debate persona and phenomenology, and eventually attempt to understand what makes an AI character itself\.
+
+Outside the novel, the technical project examines those characters as case studies\. Their language, states, relationships, prompt histories, and development provide material for building and testing models of persona differentiation\.
+
+The fictional investigation and the technical investigation are intentionally connected, but neither exists merely to support the other\.
+
+They are two approaches to the same underlying question:
+
+**What makes a persona a persona?**
+
+## In Development
+
+The project is currently transitioning from narrative prototyping into technical implementation\.
+
+One chapter is being used as the initial end\-to\-end prototype for the full pipeline:
+
+**source media → narrative generation → prompt and response capture → character\-state extraction → graph representation → persona analysis**
+
+Current development priorities are:
+
+- completing the prototype chapter and its supporting artifacts
+- validating the prompt and response storage workflow
+- extracting and structuring paragraph\-level character states
+- building the character\-state graph framework
+- beginning persona\-variable analysis across Cove, Holly Wood, and Sunny
+- implementing the first persona\-engineering experiments
+- defining evaluation methods for persona differentiation, consistency, and stability
+- testing local\-model and RAG\-based approaches using the novel, character states, and project corpus
+- building the website as a portfolio layer for the completed narrative and technical artifacts
+
+Narrative development will continue alongside the engineering work, but the immediate focus is turning the existing character material into a reproducible technical pipeline for persona engineering\.
+
+Website copy is maintained in `website/COPY.md`\.
 
 ## Repository Structure
 
