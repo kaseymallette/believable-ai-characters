@@ -168,6 +168,8 @@ They are two approaches to the same underlying question:
 
 ## In Development
 
+[Read the build plan →](docs/build-plan.md)
+
 The project is currently transitioning from narrative prototyping into technical implementation\.
 
 One chapter is being used as the initial end\-to\-end prototype for the full pipeline:
@@ -205,9 +207,9 @@ believable-ai-characters/
 │   └── state-notes.json
 │    
 ├── docs/
+│   ├── build-plan.md
 │   ├── chapter-01-overview.md
-│   ├── characters.md
-│   └── ...
+│   └── characters.md
 │
 ├── images/
 │   ├── characters.jpg
