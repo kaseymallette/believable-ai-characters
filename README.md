@@ -2,7 +2,7 @@
 
 Believable AI Characters is a storytelling, research, and persona\-engineering project investigating how distinct AI personas are created, represented, tracked, and engineered\.
 
-The project follows three original AI characters—Cove, Holly Wood, and Sunny—across image generation, video, narrative fiction, structured character\-state tracking, portfolio presentation, and experimental persona engineering\.
+The project follows three original AI characters—Cove, Holly Wood, and Sunny—across image generation, video, narrative fiction, structured character\-state tracking, and experimental persona engineering\.
 
 The project begins with a concrete character\-design question:
 
@@ -50,6 +50,8 @@ The resulting novel follows Cove, Holly Wood, and Sunny as fictional AI characte
 
 The fiction therefore functions both as a story and as part of the research environment\.
 
+[Explore Chapter 01 - Cove →](./docs/chapter-01-cove-overview.md)
+
 ### 3\. Prompt and Response Store
 
 The writing process is preserved rather than reduced to the final prose\.
@@ -94,33 +96,7 @@ This creates two complementary records:
 
 Together, they preserve both the production process and the evolving internal structure of the characters produced by that process\.
 
-### 5\. Website and Portfolio
-
-The project website serves as the public\-facing layer connecting the characters, media, fiction, and technical work\.
-
-The website is organized around:
-
-- About
-- Characters
-- Story
-- Technical Implementation
-
-Each character has a dedicated space connecting their visual development, videos, narrative fiction, and technical artifacts\.
-
-The Story section presents the novel chapter by chapter\. Where applicable, each chapter can include:
-
-- the video or videos that served as narrative seeds
-- contextual material showing how the visual concept developed into fiction
-- a PDF of the completed chapter
-- links to the corresponding repository materials
-
-This makes the development process visible rather than presenting only the finished story\.
-
-The website functions as both a narrative experience and a technical portfolio, showing how generative media, AI\-assisted writing, prompt capture, character\-state tracking, and persona engineering fit together\.
-
-It also links back to the GitHub repository, where prompts, states, code, documentation, and technical experiments are maintained\.
-
-### 6\. Persona Engineering
+### 5\. Persona Engineering
 
 The technical phase moves beyond writing increasingly detailed persona descriptions toward experimentally modeling persona\.
 
@@ -208,11 +184,8 @@ Current development priorities are:
 - implementing the first persona\-engineering experiments
 - defining evaluation methods for persona differentiation, consistency, and stability
 - testing local\-model and RAG\-based approaches using the novel, character states, and project corpus
-- building the website as a portfolio layer for the completed narrative and technical artifacts
 
 Narrative development will continue alongside the engineering work, but the immediate focus is turning the existing character material into a reproducible technical pipeline for persona engineering\.
-
-Website copy is maintained in `website/COPY.md`\.
 
 ## Repository Structure
 
