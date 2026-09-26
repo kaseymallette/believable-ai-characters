@@ -199,6 +199,11 @@ believable-ai-characters/
 │   ├── chapter-01-cove.pdf
 │   └── ...
 │
+├── docs/
+│   ├── chapter-01-cove-overview.md
+│   ├── characters.md
+│   └── ...
+│
 ├── images/
 │   ├── characters.jpg
 │   ├── cowboy-cove.jpg
@@ -212,13 +217,7 @@ believable-ai-characters/
 │   ├── chapter-01-cove-states.md
 │   └── ...
 │     
-├── videos/
-│   ├── chapter-01-cove.mp4
-│   └── ...
-│
-└── website/
-    ├── base.css
-    ├── COPY.md
-    ├── index.html
-    └── style.css
+└── videos/
+    ├── chapter-01-cove.mp4
+    └── ...
 ```
