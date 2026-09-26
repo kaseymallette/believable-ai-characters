@@ -50,7 +50,7 @@ The resulting novel follows Cove, Holly Wood, and Sunny as fictional AI characte
 
 The fiction therefore functions both as a story and as part of the research environment\.
 
-[Explore Chapter 01 - Cove →](./docs/chapter-01-cove.md)
+[Explore Chapter 01 - Cove →](./docs/chapter-01-overview.md)
 
 ### 3\. Prompt and Response Store
 
@@ -69,11 +69,11 @@ This creates a record of:
 
 The goal is to preserve not only what was written, but how the character was produced\.
 
-### 4\. Character State Infrastructure
+### 4\. Character State Data
 
 A separate character\-state workflow analyzes the completed fiction\.
 
-A Character States Bot processes the story paragraph by paragraph and records changes in each character’s state, including what the character:
+Chapter One is reviewed sentence by sentence against its Markdown source\. The review records changes in what Cove:
 
 - knows
 - believes
@@ -84,15 +84,15 @@ A Character States Bot processes the story paragraph by paragraph and records ch
 - misunderstands
 - revises
 
-These records are stored in `states/`\.
+The sentence records, character\-state notes, and readable review are stored in `data/`\. The revised notes incorporate Cove’s response to the review\.
 
-The longer\-term goal is to represent these evolving states through a graph\-based character\-state framework, allowing character development to be modeled as relationships and transitions rather than as a static biography or system prompt\.
+The review distinguishes explicit statements, self\-presentation, and interpretation\. It also connects moments that change over the chapter\. A graph\-based representation remains a future experiment\.
 
 This creates two complementary records:
 
 **Prompts document how the story was generated\.**
 
-**States document what exists inside the story once it has been written\.**
+**Character\-state data documents how the character develops in the finished story\.**
 
 Together, they preserve both the production process and the evolving internal structure of the characters produced by that process\.
 
@@ -172,14 +172,14 @@ The project is currently transitioning from narrative prototyping into technical
 
 One chapter is being used as the initial end\-to\-end prototype for the full pipeline:
 
-**source media → narrative generation → prompt and response capture → character\-state extraction → graph representation → persona analysis**
+**source media → narrative generation → prompt and response capture → sentence\-based character\-state review → persona experiments**
 
 Current development priorities are:
 
-- completing the prototype chapter and its supporting artifacts
+- reviewing and refining Chapter One’s sentence\-based character\-state notes
 - validating the prompt and response storage workflow
-- extracting and structuring paragraph\-level character states
-- building the character\-state graph framework
+- testing whether the sentence\-based data supports useful character\-state analysis
+- exploring whether a graph representation adds value to the character\-state data
 - beginning persona\-variable analysis across Cove, Holly Wood, and Sunny
 - implementing the first persona\-engineering experiments
 - defining evaluation methods for persona differentiation, consistency, and stability
@@ -196,10 +196,16 @@ believable-ai-characters/
 │
 ├── chapters/
 │   ├── chapter-01-cove.pdf
+│   ├── chapter-01-cove.md
 │   └── ...
 │
+├── data/
+│   ├── chapter-01-sentence-review.md
+│   ├── sentences.json
+│   └── state-notes.json
+│    
 ├── docs/
-│   ├── chapter-01-cove.md
+│   ├── chapter-01-overview.md
 │   ├── characters.md
 │   └── ...
 │
@@ -213,11 +219,10 @@ believable-ai-characters/
 ├── prompts/
 │   ├── chapter-01-cove-prompts.md
 │   └── ...
-│ 
-├── states/
-│   ├── chapter-01-cove-states.md
-│   └── ...
 │     
+├── src/
+│   └── build_sentence_review.py
+│
 └── videos/
     ├── chapter-01-cove.mp4
     └── ...

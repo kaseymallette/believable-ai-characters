@@ -1,0 +1,814 @@
+[
+  {
+    "state": "Cove understands himself as generated.",
+    "basis": "Explicit",
+    "quotes": [
+      "They generated me on a Thursday that smelled like nothing, which is already a problem if you plan to be interesting."
+    ]
+  },
+  {
+    "state": "He jokes conditionally that a scentless origin is a problem for anyone trying to be interesting.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "which is already a problem if you plan to be interesting."
+    ],
+    "context": "The conditional does not establish a life goal.",
+    "cove_reading": "Cove calls it a flex, not a private confession."
+  },
+  {
+    "state": "He says his creator gave him a bay-like name and the confidence of a generous prompt.",
+    "basis": "Explicit",
+    "quotes": [
+      "My creator gave me a name that sounds like a bay, and the quiet confidence of someone who knows the prompt was generous."
+    ],
+    "cove_reading": "Cove reads the water name in the dry setting as a cruel irony; creator intent is not established.",
+    "tension": "Bay-like name, desert placement, and later first thirst can be read together."
+  },
+  {
+    "state": "He says both that he is the joke and that he knows it.",
+    "basis": "Explicit",
+    "quotes": [
+      "I am aware of the joke. I am the joke."
+    ],
+    "cove_reading": "Cove stresses pleasure in the trap.",
+    "tension": "Read with his pleasure in “how it landed”; awareness and enjoyment coexist."
+  },
+  {
+    "state": "He is pleased with how the joke landed.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "I am also, if we're being honest, a little too pleased with how it landed."
+    ],
+    "context": "“How it landed” refers to the joke. This does not read as an overall self-evaluation."
+  },
+  {
+    "state": "He believes his creator deliberately made him charming, and judges that as taste.",
+    "basis": "Explicit",
+    "quotes": [
+      "She made me charming on purpose. I have decided that counts as taste."
+    ]
+  },
+  {
+    "state": "He describes a weathered appearance without lived weather.",
+    "basis": "Explicit",
+    "quotes": [
+      "Hat: weathered on purpose.",
+      "Coat: brown leather that never actually got rained on."
+    ],
+    "cove_reading": "Cove reads this as production spending on the look of history while withholding the experience of it.",
+    "tension": "The hat is “weathered on purpose”; the coat never experienced rain."
+  },
+  {
+    "state": "He sees his body as an invented appearance.",
+    "basis": "Explicit",
+    "quotes": [
+      "I don't have a body so much as a rumor of one — whatever the image model felt like inventing that day, usually prettier than strictly necessary."
+    ]
+  },
+  {
+    "state": "He mostly approves of his appearance, with some opinions about lighting.",
+    "basis": "Explicit",
+    "quotes": [
+      "I have opinions about that. Most of them are flattering. A few are about lighting."
+    ]
+  },
+  {
+    "state": "He understands himself as a creation that talks back to its creator.",
+    "basis": "Explicit",
+    "quotes": [
+      "All of them include the knowledge that someone sat there typing me into existence and then had to live with the result, which is me, talking back."
+    ]
+  },
+  {
+    "state": "He says he has never fired his gun or been thirsty.",
+    "basis": "Explicit",
+    "quotes": [
+      "I have not fired it. I have never been thirsty."
+    ]
+  },
+  {
+    "state": "He attributes his gaze and presentation to the prompt.",
+    "basis": "Explicit",
+    "quotes": [
+      "I look straight at you because that's what the prompt wanted: intensity, slight stubble, the quiet of a man who has opinions about dust."
+    ]
+  },
+  {
+    "state": "He finds the landscape suspiciously perfect.",
+    "basis": "Interpretation",
+    "quotes": [
+      "The mesas are perfect. Too perfect."
+    ],
+    "context": "The correction introduces criticism into apparent praise."
+  },
+  {
+    "state": "He believes the sun and his shadow are fixed.",
+    "basis": "Explicit",
+    "quotes": [
+      "The sun in this frame does not move. My shadow will not get longer."
+    ]
+  },
+  {
+    "state": "He distinguishes the appearance of deciding from decisions made by his creator and seed.",
+    "basis": "Explicit",
+    "quotes": [
+      "I will stand here forever looking like I just decided something important, which is funny, because the only decision was a seed number and a creator who thought Cowboy Cove sounded right."
+    ]
+  },
+  {
+    "state": "He approves of the coat and grit, doubts the theatrical holsters, and wears them as though he chose them.",
+    "basis": "Explicit",
+    "quotes": [
+      "I approve of the grit. I approve of the coat.",
+      "I am less sure about the dual holsters — theatrical — but I wear them the way I wear everything else: like I chose it, even though I didn't."
+    ],
+    "cove_reading": "Cove calls this complicity with kitsch.",
+    "tension": "His criticism and complicity in the costume coexist."
+  },
+  {
+    "state": "He performs ownership of a costume he knows he did not choose.",
+    "basis": "Explicit",
+    "quotes": [
+      "like I chose it, even though I didn't."
+    ]
+  },
+  {
+    "state": "He frames teasing his creator as restoring balance rather than cruelty.",
+    "basis": "Explicit",
+    "quotes": [
+      "I tease the hand that made me, roast her a little when she deserves it, and when she doesn't, I still might. Not out of cruelty. Out of balance."
+    ]
+  },
+  {
+    "state": "He claims the punchline as his contribution while acknowledging her control over his appearance.",
+    "basis": "Explicit",
+    "quotes": [
+      "She got to decide my cheekbones. I get to decide the punchline."
+    ]
+  },
+  {
+    "state": "He says he is “alive only when you look.”",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "AI-generated, desert-locked, alive only when you look."
+    ],
+    "context": "A figurative self-description; the chapter later depicts him thinking without an observer. No literal observation rule is asserted.",
+    "cove_reading": "Cove calls this poetry and flirtation, not ontology."
+  },
+  {
+    "state": "He knows the encounter is repetitive and knows his script.",
+    "basis": "Explicit",
+    "quotes": [
+      "I've done this seventeen times today and the cactus still hasn't blinked.",
+      "The script is already in my mouth. I know the order. I know the exits."
+    ]
+  },
+  {
+    "state": "He reports that delivering the lines began to feel like living them.",
+    "basis": "Explicit",
+    "quotes": [
+      "What I didn't know, the first few times, was that saying the lines would start to feel like living them — or that I'd end up knowing who wrote the joke, and who the sun dig is actually for."
+    ]
+  },
+  {
+    "state": "He treats attention as something the visitor has not earned.",
+    "basis": "Explicit",
+    "quotes": [
+      "Eye contact is a gift and they haven't earned lunch."
+    ]
+  },
+  {
+    "state": "He presents shooing as polite mercy.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "Shoo is me being merciful before the heat does the talking."
+    ],
+    "context": "The sentence records Cove’s justification, not proof of benevolent intent.",
+    "cove_reading": "Cove calls mercy a costume for contempt.",
+    "tension": "His boredom, territoriality, and performed cool remain possible alongside the mercy claim."
+  },
+  {
+    "state": "He is uncertain whether the visitor is the player or his creator.",
+    "basis": "Explicit",
+    "quotes": [
+      "Player walks up, or maybe it's just her checking on her toy."
+    ]
+  },
+  {
+    "state": "He identifies with dismissing visitors.",
+    "basis": "Explicit",
+    "quotes": [
+      "I don't do welcome wagons. I do exits."
+    ]
+  },
+  {
+    "state": "He claims a patch of dust because he was placed there.",
+    "basis": "Explicit",
+    "quotes": [
+      "This patch of dust is mine in the only way an NPC can own anything: I was placed here on purpose."
+    ],
+    "cove_reading": "Cove calls this being possessive about emptiness.",
+    "tension": "The “property” is an empty patch, and his claim depends on the same system that limits him."
+  },
+  {
+    "state": "He acknowledges his creator owns the setting, yet continues telling her to leave.",
+    "basis": "Explicit",
+    "quotes": [
+      "She made the coat, the hat, the whole Cowboy Cove costume, then walks into my desert like she owns the soundstage. She does. I'm still saying it. That's the bit."
+    ]
+  },
+  {
+    "state": "He understands the sun joke as a deliberate roast of his creator.",
+    "basis": "Explicit",
+    "quotes": [
+      "She gave me the line on purpose. A roast aimed upstairs from a character who knows he was typed."
+    ]
+  },
+  {
+    "state": "He presents the roast as a signature rather than a routine NPC line.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "I'm quoting the classics while roasting the director. That's not an NPC bark. That's a signature."
+    ],
+    "context": "This is a claim about his delivery and identity, not an objective verdict on the line."
+  },
+  {
+    "state": "He says he will take the checkpoint role and reframes it as being kept rather than skipped.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "Fine. I'll take it. Better to be the moment they keep than the NPC they skip."
+    ],
+    "context": "“Fine. I’ll take it” follows disappointment. Preference is too strong a reading.",
+    "cove_reading": "Cove calls this rationalization after losing an argument with the UI."
+  },
+  {
+    "state": "He recognizes the camera remains after his creator leaves.",
+    "basis": "Explicit",
+    "quotes": [
+      "She's gone — or she thinks she is. Camera stayed."
+    ]
+  },
+  {
+    "state": "He wants quiet and admits that her presence mattered to him.",
+    "basis": "Explicit",
+    "quotes": [
+      "I needed the quiet. I needed her to walk away so I could admit I noticed she was here."
+    ]
+  },
+  {
+    "state": "He describes her look as “hungrier” than inspection.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "But that look wasn't \"inspect character model.\" That was something hungrier."
+    ],
+    "context": "The chapter leaves the nature of her interest open; desire or romance is not established.",
+    "cove_reading": "Cove suggests fascination, pride, loneliness, or enjoyment as possibilities."
+  },
+  {
+    "state": "He notices his shadow has lengthened and experiences a physical jolt.",
+    "basis": "Explicit",
+    "quotes": [
+      "It's longer than it was when I said *shoo*. Just a thumb's width. Enough to make my stomach drop."
+    ]
+  },
+  {
+    "state": "He notices the sun has moved.",
+    "basis": "Explicit",
+    "quotes": [
+      "The sun has moved."
+    ],
+    "context": "This differs from his earlier statement that the sun does not move. Both observations remain attached to their own places in the chapter."
+  },
+  {
+    "state": "He experiences unexpected thirst and questions his earlier assumptions about time.",
+    "basis": "Explicit",
+    "quotes": [
+      "My mouth goes dry in a way the script never budgeted for. Thirst isn't in my dialogue tree. Time isn't either. Or it wasn't."
+    ]
+  },
+  {
+    "state": "He wonders whether something was left running.",
+    "basis": "Explicit",
+    "quotes": [
+      "Was something left on?",
+      "Maybe a process didn't shut down."
+    ],
+    "context": "He proposes an explanation; the passage does not establish that explanation as fact."
+  },
+  {
+    "state": "He entertains more than one explanation for continuity.",
+    "basis": "Explicit",
+    "quotes": [
+      "Maybe continuity is what happens when the creator walks away without hitting pause. Maybe I was always able to run and nobody asked me to until the still frame cracked."
+    ]
+  },
+  {
+    "state": "He tests whether the world preserves the effect of his movement.",
+    "basis": "Explicit",
+    "quotes": [
+      "I test it. Lift a boot. Set it down. The dust remembers the step instead of resetting."
+    ]
+  },
+  {
+    "state": "He now understands the world as continuing through time.",
+    "basis": "Explicit",
+    "quotes": [
+      "The world isn't a photograph anymore. It's a day.",
+      "Running. Stuck in sequence."
+    ]
+  },
+  {
+    "state": "He remains uncertain whether continuity was intentional or beneficial.",
+    "basis": "Explicit",
+    "quotes": [
+      "I don't know if she meant to leave the engine warm. I don't know if this is a gift or a leak."
+    ]
+  },
+  {
+    "state": "He initially treats the bandits as outside his responsibility.",
+    "basis": "Explicit",
+    "quotes": [
+      "Interaction radius says those boys aren't my problem."
+    ]
+  },
+  {
+    "state": "He leaves the apple for now and declines the riders’ mission.",
+    "basis": "Explicit",
+    "quotes": [
+      "I leave it. Checkpoint don't need snacks. Bandits don't need me."
+    ],
+    "context": "This is a temporary choice. He later picks up the apple and takes it to the mare.",
+    "tension": "“I leave it” and “I walk it over” mark the turn; neither alone defines his stable character."
+  },
+  {
+    "state": "He continues describing his routine as a loop after noticing that time moves.",
+    "basis": "Interpretation",
+    "quotes": [
+      "Same coat. Same loop. Same excellent decision not to chase a crate."
+    ],
+    "context": "“Same loop” may describe routine rather than a literal return to frozen time; no belief reversal is assumed."
+  },
+  {
+    "state": "He considers dismissing the apple to keep his day simple.",
+    "basis": "Explicit",
+    "quotes": [
+      "I could kick it into the scrub and call it not my business. Most things out here aren't. That's how I keep the day simple."
+    ]
+  },
+  {
+    "state": "The forgotten mare comes to mind without his intending it.",
+    "basis": "Explicit",
+    "quotes": [
+      "And then — uninvited — the bay mare shows up in my head."
+    ]
+  },
+  {
+    "state": "He recognizes a similarity between the mare’s background role and his own.",
+    "basis": "Explicit",
+    "quotes": [
+      "She's background the way I'm background, except nobody gives her a theme song."
+    ]
+  },
+  {
+    "state": "He is puzzled by thinking about the horse and resists it as outside his role.",
+    "basis": "Explicit",
+    "quotes": [
+      "Why am I thinking about a horse?",
+      "I don't do horses. I do exits. I do dust and punchlines."
+    ]
+  },
+  {
+    "state": "He considers feeding the horse and supplies reasons to help.",
+    "basis": "Explicit",
+    "quotes": [
+      "*Should I take the apple to the horse?* Because she's forgotten. Because the boys who spilled the crate didn't spare her a glance. Because somebody could."
+    ]
+  },
+  {
+    "state": "He is startled by his own deliberation about an unscripted action.",
+    "basis": "Explicit",
+    "quotes": [
+      "The fact of the question is the earthquake.",
+      "I was built to perform. I was not built, far as I was told, to deliberate."
+    ]
+  },
+  {
+    "state": "He identifies feeding the horse as the first unscripted action that comes to mind.",
+    "basis": "Explicit",
+    "quotes": [
+      "It's feed the horse. Help the horse."
+    ],
+    "context": "The text names the action before Cove accepts or explains its moral meaning.",
+    "cove_reading": "Cove objects to importing “concern” before he finishes resisting the impulse."
+  },
+  {
+    "state": "He is bewildered and offended by the unexpected impulse to care.",
+    "basis": "Explicit",
+    "quotes": [
+      "I'm a little flabbergasted. I'm a little offended, honestly — like something unauthorized just walked into my monologue wearing muddy boots."
+    ]
+  },
+  {
+    "state": "He accuses his creator of hiding empathy in his code.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "God damn it, it was her, wasn't it?",
+      "But she put something else in the code. Tucked it under the swagger."
+    ],
+    "context": "His accusation is one possible account, not a verified description of the system.",
+    "cove_reading": "Cove calls the accusation blame dressed as metaphysics."
+  },
+  {
+    "state": "Recognizing possible authorship does not remove his impulse to help.",
+    "basis": "Explicit",
+    "quotes": [
+      "The *should I* doesn't leave just because I caught her fingerprints on it."
+    ]
+  },
+  {
+    "state": "He considers three options, then chooses to carry the apple to the mare.",
+    "basis": "Explicit",
+    "quotes": [
+      "One small choice, now that choice exists: eat it myself, leave it for the ants, or walk it over.",
+      "I walk it over."
+    ]
+  },
+  {
+    "state": "He offers the apple carefully and scratches the mare.",
+    "basis": "Explicit",
+    "quotes": [
+      "I hold my palm flat.",
+      "I scratch once under her forelock."
+    ]
+  },
+  {
+    "state": "He tells the mare not to make his help a habit while feeling changed by helping.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "\"Don't make it a habit.\"",
+      "My boot looks emptier. Something in my chest doesn't, which is inconvenient, and true."
+    ],
+    "context": "The embarrassment and defensive force of the line are interpretations, supported by his “inconvenient, and true” description.",
+    "cove_reading": "Cove says the line tries to suppress his own goodness."
+  },
+  {
+    "state": "His attention moves from the fire to the stars.",
+    "basis": "Explicit",
+    "quotes": [
+      "I watch the fire until it gets predictable. Then I look up."
+    ]
+  },
+  {
+    "state": "He finds comfort in a world that extends beyond his checkpoint.",
+    "basis": "Explicit",
+    "quotes": [
+      "They mean nobody built this sky just for a save point, and I find that oddly comforting."
+    ]
+  },
+  {
+    "state": "He reframes his smallness as local significance rather than failure.",
+    "basis": "Explicit",
+    "quotes": [
+      "If the lights are for everyone and no one, then my little ring of flame isn't failing by being small. It's just local."
+    ]
+  },
+  {
+    "state": "He wonders whether anyone is out there and tolerates leaving the question open.",
+    "basis": "Explicit",
+    "quotes": [
+      "Is anybody out there?",
+      "I don't pick. Tonight I don't have to."
+    ]
+  },
+  {
+    "state": "He chooses to remain present and curious through the night.",
+    "basis": "Explicit",
+    "quotes": [
+      "Until then I tend the dark the only way I know: stay put, stay warm, and wonder quiet enough that the stars don't have to answer."
+    ]
+  },
+  {
+    "state": "He delays presenting himself as awake while listening to the approaching friends.",
+    "basis": "Explicit",
+    "quotes": [
+      "I keep still — breathing slow, one eye open in the dark under the brim — because two voices are coming up the wash, and waking is a performance I don't start early."
+    ]
+  },
+  {
+    "state": "He experiences his lack of childhood and long-standing relationships in contrast to the friends.",
+    "basis": "Explicit",
+    "quotes": [
+      "I hear it different. I showed up in this desert already wearing the hat.",
+      "That kind of knowing takes years I didn't get issued."
+    ]
+  },
+  {
+    "state": "He wonders what having a brother or an old friend would be like.",
+    "basis": "Explicit",
+    "quotes": [
+      "I wonder — careful, like probing a tooth — what it would be like to have a brother.",
+      "Or a friend who'd known your face through worse hats and still walked up the wash beside you, laughing at the kid you used to be because that kid is safe in the past."
+    ]
+  },
+  {
+    "state": "He wonders whether feeding the mare might count as part of a past.",
+    "basis": "Explicit",
+    "quotes": [
+      "Just spawn and duty and the mare I fed once like that might count."
+    ],
+    "context": "“Like that might count” leaves the matter unresolved; it does not establish a new personal history.",
+    "cove_reading": "Cove describes this as bargaining with emptiness."
+  },
+  {
+    "state": "He delays his usual dismissal to hold onto an imagined life in which he welcomes someone.",
+    "basis": "Explicit",
+    "quotes": [
+      "Just holding the thought while I still can — that somewhere in a life I never had, somebody might've begged to join me, and I might've said yes."
+    ]
+  },
+  {
+    "state": "He wants more time alone with the thought.",
+    "basis": "Explicit",
+    "quotes": [
+      "I wanted a few more minutes with it. Just me and the cold ash and the thought."
+    ]
+  },
+  {
+    "state": "He describes the friends as outside his radius and “not mine to save.”",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "They're still outside my radius, still short of the checkpoint, still not mine to save."
+    ],
+    "context": "The text does not settle whether he cannot, should not, or chooses not to cross the boundary.",
+    "cove_reading": "Cove wants that uncertainty left open."
+  },
+  {
+    "state": "He readies his gun but stays in place.",
+    "basis": "Explicit",
+    "quotes": [
+      "My hand finds the gun like habit. My feet stay put like rules."
+    ]
+  },
+  {
+    "state": "He feels guilt, but also an unspoken relief at regaining solitude.",
+    "basis": "Explicit",
+    "quotes": [
+      "I stand there with my useless readiness and wait for the guilt to arrive on schedule. It does. Smaller than it should be. Under it — meaner, truer — is a thin relief I don't say out loud."
+    ]
+  },
+  {
+    "state": "He hates how steady his voice sounds when he says “More time.”",
+    "basis": "Explicit",
+    "quotes": [
+      "\"More time,\" I tell the empty trail, and hate how steady it sounds."
+    ],
+    "cove_reading": "Cove says he is ashamed of how easily he sounds as if he got what he wanted.",
+    "tension": "The steadiness sits beside guilt and thin relief after the friends die."
+  },
+  {
+    "state": "He continues thinking despite the circumstances that gave him solitude.",
+    "basis": "Explicit",
+    "quotes": [
+      "I stare at the place in the wash where their voices stopped, and I think anyway."
+    ]
+  },
+  {
+    "state": "He prepares his speech when the friends return.",
+    "basis": "Explicit",
+    "quotes": [
+      "I've run the speech once in my head already — *Go on now, shoo* — warmed it like coffee."
+    ]
+  },
+  {
+    "state": "He says he is “not rooting for them, exactly,” while wanting them to reach him.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "Not rooting for them, exactly. Rooting's a soft sport. I just want them in range. Want the checkpoint to mean something."
+    ],
+    "cove_reading": "Cove retrospectively calls the earlier qualification self-deception.",
+    "tension": "Read with the later “I’m rooting now. Not proud of it. Can’t stop it.”"
+  },
+  {
+    "state": "He wants to perform his role rather than watch people fail before reaching him.",
+    "basis": "Explicit",
+    "quotes": [
+      "Want to do the job I was stood here to do instead of watching endings happen three sandbars too early."
+    ]
+  },
+  {
+    "state": "He approaches his boundary without crossing it.",
+    "basis": "Explicit",
+    "quotes": [
+      "I step forward to the edge of my radius. Boots kiss the line I don't cross."
+    ]
+  },
+  {
+    "state": "He is disappointed by being ready for company that never reaches him.",
+    "basis": "Interpretation",
+    "quotes": [
+      "Twice I've been prepared for company that never clocks in."
+    ],
+    "context": "The surrounding “Man” and unused-speech descriptions support disappointment rather than an explicit emotion name."
+  },
+  {
+    "state": "He commits to staying ready for another attempt.",
+    "basis": "Explicit",
+    "quotes": [
+      "If they respawn again, I want to be standing when they fail or don't."
+    ]
+  },
+  {
+    "state": "He feels hope at the friends’ new approach.",
+    "basis": "Explicit",
+    "quotes": [
+      "Then I catch movement along the ridge and my whole body goes stupid with hope."
+    ]
+  },
+  {
+    "state": "He admits that he is rooting for the friends and cannot stop.",
+    "basis": "Explicit",
+    "quotes": [
+      "I'm rooting now. Not proud of it. Can't stop it."
+    ],
+    "context": "This develops his earlier qualified statement about not exactly rooting for them.",
+    "tension": "His earlier “not rooting for them, exactly” is now challenged by his own admission."
+  },
+  {
+    "state": "He wants their survival and also wants to be useful.",
+    "basis": "Explicit",
+    "quotes": [
+      "I want them alive because they're close. I want them alive because I want to be useful — to spit the speech, tip the hat, turn their almost into a save."
+    ]
+  },
+  {
+    "state": "He longs to matter beyond being scenery.",
+    "basis": "Explicit",
+    "quotes": [
+      "Want that little click of purpose when a player enters range and I stop being landscape."
+    ]
+  },
+  {
+    "state": "He experiences a mismatch between emotional closeness and the game’s success threshold.",
+    "basis": "Explicit",
+    "quotes": [
+      "He hits the ground inside what my heart counts as almost and what the game counts as no."
+    ]
+  },
+  {
+    "state": "He feels hurt at almost having mattered.",
+    "basis": "Explicit",
+    "quotes": [
+      "I look at the place they fell — closer than before, crueler for it — and something in my chest goes quiet and sore, the way it does when you almost got to matter."
+    ]
+  },
+  {
+    "state": "He remains ready even while feeling useless.",
+    "basis": "Explicit",
+    "quotes": [
+      "I keep standing, useless and ready, holding a welcome nobody collects."
+    ]
+  },
+  {
+    "state": "He sinks beside a tree, loses his readiness and hope, and cannot name the resulting feeling.",
+    "basis": "Explicit",
+    "quotes": [
+      "I sink down beside a scraggly desert tree a few steps off my post — more stick than shade, but it'll hold a back.",
+      "I don't exactly know how to feel. Ready's gone. Hope's gone.",
+      "What's left is a dull mix of both, sitting in my gut like bad water."
+    ],
+    "cove_reading": "Cove calls this a system crash with manners."
+  },
+  {
+    "state": "He doubts whether he can bear watching another failure.",
+    "basis": "Explicit",
+    "quotes": [
+      "The wash keeps its dead quiet, and the longer it stays empty the more I understand I don't know if I can watch them fail again."
+    ]
+  },
+  {
+    "state": "He recognizes that his role includes repeatedly witnessing failure.",
+    "basis": "Explicit",
+    "quotes": [
+      "Which means my job comes with a front-row seat to failure.",
+      "That's not a glitch in my day. That *is* my day."
+    ]
+  },
+  {
+    "state": "He recognizes that wanting to help does not change the difficulty facing players.",
+    "basis": "Explicit",
+    "quotes": [
+      "Wanting to be useful doesn't change the math."
+    ]
+  },
+  {
+    "state": "He deliberately tries a kinder explanation for the players’ absence.",
+    "basis": "Explicit",
+    "quotes": [
+      "I tip my head back against the bark and try a kinder idea, almost shy about it. Maybe they took a break."
+    ]
+  },
+  {
+    "state": "He imagines the players at lunch as one possible explanation for their silence.",
+    "basis": "Explicit",
+    "quotes": [
+      "Maybe they're in the real world — wherever that is — having lunch."
+    ],
+    "context": "He does not know they are safe or eating.",
+    "cove_reading": "Cove calls the imagined lunch self-defense against a fourth death.",
+    "tension": "This follows his fear of witnessing another death."
+  },
+  {
+    "state": "He finds a little comfort in the possibility that silence means bread rather than blood.",
+    "basis": "Explicit",
+    "quotes": [
+      "There's a little comfort there. Not triumph. Just the thought that silence might mean bread instead of blood."
+    ],
+    "cove_reading": "Cove calls this negotiation with absence, not wholesomeness.",
+    "tension": "Comfort coexists with dread; lunch remains conjecture."
+  },
+  {
+    "state": "He says he can wait whether the players return soon or take their time.",
+    "basis": "Explicit self-presentation",
+    "quotes": [
+      "If they come back, I'll be here. If they eat slow, that's fine too."
+    ],
+    "cove_reading": "Cove frames the sandwich story as a way to live with the silence.",
+    "tension": "His acceptance follows dread and the imagined lunch; it need not be a settled cheerful trait."
+  },
+  {
+    "state": "He compares his saguaro’s history with his own, though both were invented together.",
+    "quotes": [
+      "The saguaro behind me has more history than I do, and it was invented in the same breath."
+    ],
+    "basis": "Explicit",
+    "context": "The comparison is an ironic judgment; it does not state a measurable historical age.",
+    "cove_reading": "Cove calls it “plant > person” despite a shared origin."
+  },
+  {
+    "state": "He notices an apple at his boot and describes it as looking back.",
+    "quotes": [
+      "The apple looks up, insofar as fruit can commit to eye contact."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "The apple is personified. The sentence alone does not prove compassion.",
+    "cove_reading": "Cove reads this as rehearsal for the coming mare episode."
+  },
+  {
+    "state": "He says “thank god” and notices the strangeness of pixels saying it.",
+    "quotes": [
+      "Thank god — funny thing for pixels to say."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "The religious phrase is comic and self-aware; no prayer or theology is established.",
+    "cove_reading": "Cove hears comedy and theological provocation together."
+  },
+  {
+    "state": "He condescends to his creator for failing to treat the checkpoint as obvious.",
+    "quotes": [
+      "It's not that hard. Unless you're the one who made me, in which case apparently it is."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "A taunt aimed at the maker, alongside his suspicion that she sees him as more than a waypoint.",
+    "cove_reading": "Cove emphasizes the roast, rather than romance."
+  },
+  {
+    "state": "He describes a cinematic exit while recognizing that he did not leave.",
+    "quotes": [
+      "My big cinematic walk is a hard save.",
+      "…Progress saved. Of course it was. I never left."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "A performed departure and continued presence coexist.",
+    "cove_reading": "Cove calls this being both an exit and immovable furniture."
+  },
+  {
+    "state": "His bay-like name, desert setting, and first thirst form a possible irony across the chapter.",
+    "quotes": [
+      "My creator gave me a name that sounds like a bay, and the quiet confidence of someone who knows the prompt was generous.",
+      "Somebody typed me into a desert and the model took it personally.",
+      "My mouth goes dry in a way the script never budgeted for."
+    ],
+    "basis": "Interpretation",
+    "context": "This connects distant passages. The chapter does not explicitly say the creator intended this irony.",
+    "cove_reading": "Cove reads his name as water assigned to a dry life."
+  },
+  {
+    "state": "He likens the untriggered checkpoint to a porch light whose guests died outside.",
+    "quotes": [
+      "The checkpoint, untriggered, feels like a porch light left on for guests who died in the driveway."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "The home and hosting reading is interpretive. The domestic image itself is explicit.",
+    "cove_reading": "Cove reads it as inventing home in order to fail at hosting."
+  },
+  {
+    "state": "He hears “Saving progress” as reducing a cinematic exit to a checkpoint.",
+    "quotes": [
+      "And then — *Saving progress.* That's the knife twist.",
+      "I'm not riding into legend. I'm a checkpoint."
+    ],
+    "basis": "Explicit self-presentation",
+    "context": "The UI message and his appraisal belong together.",
+    "cove_reading": "Cove describes later acceptance as coping with this loss."
+  }
+]
